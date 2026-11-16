@@ -1,0 +1,548 @@
+{
+  "generatedAt": "2026-11-14T17:42:59.076Z",
+  "disclaimer": "Retrieved live from official sources by TinyFish. Gaps are flagged, never guessed. Verify against the linked source before relying on it.",
+  "property": {
+    "address": "30-30 Thomson Avenue, Queens, NY 11101",
+    "housenumber": "30-30",
+    "street": "THOMSON AVENUE",
+    "borough": "Queens",
+    "bbl": "4002770001",
+    "boroCode": 4,
+    "block": "00277",
+    "lot": "0001",
+    "bin": "4003533",
+    "zip": "11101",
+    "lng": -73.93608,
+    "lat": 40.744072
+  },
+  "coverage": {
+    "total": 7,
+    "found": 6,
+    "none": 1,
+    "gaps": 0,
+    "pending": 0
+  },
+  "sections": [
+    {
+      "key": "permits",
+      "title": "Building permits & job filings",
+      "official_source": "NYC Dept. of Buildings (BISweb)",
+      "result": {
+        "key": "permits",
+        "sourceUrl": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+        "retrievedAt": "2026-11-14T17:33:34.068Z",
+        "runId": "0d5cb519-3fce-40b7-afb2-6dde7418fffe",
+        "status": "found",
+        "records": [
+          {
+            "id": "421888130",
+            "title": "A2",
+            "date": "10/05/2022",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 Work on Floor(s): ROF. Applicant: COPELAND",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+            "quote": "10/05/2022 421888130 03 A2 P APPROVED 10/25/2022 COPELAND",
+            "verified": "yes"
+          },
+          {
+            "id": "421479439",
+            "title": "A2",
+            "date": "07/28/2021",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 Work on Floor(s): CEL. Applicant: ROSENBAU",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+            "quote": "07/28/2021 421479439 03 A2 P APPROVED 09/27/2021 ROSENBAU",
+            "verified": "yes"
+          },
+          {
+            "id": "420815737",
+            "title": "A1",
+            "date": "02/16/2021",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 Work on Floor(s): BAS,CEL 001 thru 005. Applicant: ROSENBAU",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+            "quote": "02/16/2021 420815737 03 A1 P APPROVED 09/21/2021 ROSENBAU",
+            "verified": "yes"
+          },
+          {
+            "id": "421905139",
+            "title": "A2",
+            "date": "12/02/2019",
+            "status": "P APPROVED",
+            "detail": "COSMETIC RENOVATIONS OF TOILETS IN 001, 002, 004 & 006 FLOORS. Applicant: BERGER",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+            "quote": "12/02/2019 421905139 01 A2 P APPROVED 12/09/2019 BERGER",
+            "verified": "yes"
+          },
+          {
+            "id": "440568226",
+            "title": "A3",
+            "date": "10/02/2019",
+            "status": "D A/P ENTIRE",
+            "detail": "ADMIN CLOSED 12/01/2019 PROPOSED ALT 3 FILING FOR RENOVATION OF EXISTING 5. Applicant: BOORSTYN",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+            "quote": "10/02/2019 440568226 01 A3 D A/P ENTIRE 10/02/2019 BOORSTYN",
+            "verified": "yes"
+          },
+          {
+            "id": "421936490",
+            "title": "A2",
+            "date": "05/24/2019",
+            "status": "J P/E DISAPPROVED",
+            "detail": "REPLACEMENT OF FIRE COMMAND STATION AND DATA GATHERING PANELS. Applicant: FLORES",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+            "quote": "05/24/2019 421936490 01 A2 J P/E DISAPPROVED 04/23/2020 FLORES",
+            "verified": "yes"
+          },
+          {
+            "id": "421888130",
+            "title": "A2",
+            "date": "04/09/2019",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 Work on Floor(s): ROF. Applicant: COPELAND",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+            "quote": "04/09/2019 421888130 02 A2 P APPROVED 04/16/2019 COPELAND",
+            "verified": "yes"
+          },
+          {
+            "id": "421888130",
+            "title": "A2",
+            "date": "03/08/2019",
+            "status": "X SIGNED OFF",
+            "detail": "REPLACE EXISTING BOILERS WITH TWO 3000 MBH CONDENSING BOILERS. Applicant: COPELAND",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+            "quote": "03/08/2019 421888130 01 A2 X SIGNED OFF 12/02/2022 COPELAND",
+            "verified": "yes"
+          },
+          {
+            "id": "421892312",
+            "title": "A2",
+            "date": "02/20/2019",
+            "status": "R PERMIT-ENTIRE",
+            "detail": "PROPOSED ALT2 FILED FOR RENOVATION OF 4TH FLOOR OPEN OFFICE SPACE. Applicant: BARADE",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+            "quote": "02/20/2019 421892312 01 A2 R PERMIT-ENTIRE 07/17/2019 BARADE",
+            "verified": "yes"
+          },
+          {
+            "id": "421892303",
+            "title": "A2",
+            "date": "02/20/2019",
+            "status": "J P/E DISAPPROVED",
+            "detail": "ADDITION/ MODIFICATIONS TO EXISTING FIRE ALARM. Applicant: BARADE",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=4003533",
+            "quote": "02/20/2019 421892303 01 A2 J P/E DISAPPROVED 04/04/2019 BARADE",
+            "verified": "yes"
+          }
+        ],
+        "reason": null,
+        "summary": "Property profile for 30-28 THOMSON AVENUE (BIN 4003533, Block 277, Lot 1) located in Queens. The site explicitly notes that newer filings are not included in this list and are found in DOB NOW: \"The below job records do not include filings submitted in DOB NOW; use the DOB NOW Public Portal to access DOB NOW records.\""
+      }
+    },
+    {
+      "key": "dob_violations",
+      "title": "OATH/ECB violations (DOB)",
+      "official_source": "NYC Dept. of Buildings (BISweb)",
+      "result": {
+        "key": "dob_violations",
+        "sourceUrl": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+        "retrievedAt": "2026-11-14T17:36:31.704Z",
+        "runId": "5173a225-cb6d-4e6c-94ad-12e874c4e3b7",
+        "status": "found",
+        "records": [
+          {
+            "id": "39175410K",
+            "title": "CLASS - 2, CONSTRUCTION",
+            "date": "01/30/2026",
+            "status": "OPEN - NO COMPLIANCE RECORDED",
+            "detail": "CELTIC HOLDINGS, Infraction: 202, Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+            "quote": "39175410K | CLASS - 2 | CONSTRUCTION | 01/30/2026 | OPEN - NO COMPLIANCE RECORDED | CELTIC HOLDINGS | 202 | $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "37029881Z",
+            "title": "CLASS - 1, CONSTRUCTION",
+            "date": "10/01/2024",
+            "status": "RESOLVED - N/A - DISMISSED",
+            "detail": "CELTIC HOLDINGS, Infraction: 179, Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+            "quote": "37029881Z | CLASS - 1 | CONSTRUCTION | 10/01/2024 | RESOLVED - N/A - DISMISSED | CELTIC HOLDINGS | 179 | $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "35664442R",
+            "title": "CLASS - 1, CONSTRUCTION",
+            "date": "10/12/2022",
+            "status": "RESOLVED - CERTIFICATE ACCEPTED",
+            "detail": "CELTIC HOLDING, Infraction: 1E4, 104, Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+            "quote": "35664442R | CLASS - 1 | CONSTRUCTION | 10/12/2022 | RESOLVED - CERTIFICATE ACCEPTED | CELTIC HOLDING | 1E4, 104 | $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "35664237H",
+            "title": "CLASS - 1, CONSTRUCTION",
+            "date": "08/25/2022",
+            "status": "RESOLVED - N/A - DISMISSED",
+            "detail": "CELTIC HOLDING, Infraction: 187, Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+            "quote": "35664237H | CLASS - 1 | CONSTRUCTION | 08/25/2022 | RESOLVED - N/A - DISMISSED | CELTIC HOLDING | 187 | $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "35651248K",
+            "title": "CLASS - 1, CONSTRUCTION",
+            "date": "05/25/2022",
+            "status": "RESOLVED - N/A - DISMISSED",
+            "detail": "CELTIC HOLDING, Infraction: 131, Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+            "quote": "35651248K | CLASS - 1 | CONSTRUCTION | 05/25/2022 | RESOLVED - N/A - DISMISSED | CELTIC HOLDING | 131 | $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "39043237L",
+            "title": "CLASS - 2, BOILER",
+            "date": "06/22/2021",
+            "status": "RESOLVED - CERTIFICATE ACCEPTED",
+            "detail": "CELTIC HOLDINGS, Infraction: 254, Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+            "quote": "39043237L | CLASS - 2 | BOILER | 06/22/2021 | RESOLVED - CERTIFICATE ACCEPTED | CELTIC HOLDINGS | 254 | $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "39043236J",
+            "title": "CLASS - 2, BOILER",
+            "date": "06/22/2021",
+            "status": "RESOLVED - CERTIFICATE ACCEPTED",
+            "detail": "CELTIC HOLDINGS, Infraction: 254, Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+            "quote": "39043236J | CLASS - 2 | BOILER | 06/22/2021 | RESOLVED - CERTIFICATE ACCEPTED | CELTIC HOLDINGS | 254 | $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "39020410Y",
+            "title": "CLASS - 2, BOILER",
+            "date": "03/25/2020",
+            "status": "RESOLVED - CERTIFICATE ACCEPTED",
+            "detail": "CELTIC HOLDINGS, Infraction: 254, Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+            "quote": "39020410Y | CLASS - 2 | BOILER | 03/25/2020 | RESOLVED - CERTIFICATE ACCEPTED | CELTIC HOLDINGS | 254 | $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "39020409R",
+            "title": "CLASS - 2, BOILER",
+            "date": "03/25/2020",
+            "status": "RESOLVED - CERTIFICATE ACCEPTED",
+            "detail": "CELTIC HOLDINGS, Infraction: 254, Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+            "quote": "39020409R | CLASS - 2 | BOILER | 03/25/2020 | RESOLVED - CERTIFICATE ACCEPTED | CELTIC HOLDINGS | 254 | $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "37016878P",
+            "title": "CLASS - 2, CONSTRUCTION",
+            "date": "11/15/2019",
+            "status": "RESOLVED - N/A - DISMISSED",
+            "detail": "CELTIC HOLDINGS, Infraction: 206, Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=4003533",
+            "quote": "37016878P | CLASS - 2 | CONSTRUCTION | 11/15/2019 | RESOLVED - N/A - DISMISSED | CELTIC HOLDINGS | 206 | $0.00",
+            "verified": "yes"
+          }
+        ],
+        "reason": "Data extracted from the OATH/ECB violation search page for property at 30-28 THOMSON AVENUE, QUEENS (BBL 4002770001, BIN 4003533). This covers OATH/ECB violations only.",
+        "summary": "Header Totals: Total Violations Issued = 50, Open (Certificate of Correction Required) = 1, Hearings Completed/Defaulted = 49, Hearings Pending = 1. Note: This page shows OATH/ECB violations only."
+      }
+    },
+    {
+      "key": "hpd",
+      "title": "Housing maintenance violations",
+      "official_source": "NYC Housing Preservation & Development",
+      "result": {
+        "key": "hpd",
+        "sourceUrl": "https://hpdonline.nyc.gov/hpdonline/building/699293/violations",
+        "retrievedAt": "2026-11-14T17:37:40.566Z",
+        "runId": "ac911fca-178c-454e-9322-073ad24ee43a",
+        "status": "none_found",
+        "records": [],
+        "reason": "The site explicitly states: 'There are no open violations for this building. Closed violations can be accessed through NYC Open Data or you can submit a Freedom of Information Law request for the information.' There are 0 open violations and 0 overdue lead paint violations. No violation records were returned.",
+        "summary": "Property found at https://hpdonline.nyc.gov/hpdonline/building/699293/violations (30-30 Thomson Avenue, Queens, 11101). Building 699293 has no open violations."
+      }
+    },
+    {
+      "key": "zoning",
+      "title": "Zoning & land use",
+      "official_source": "NYC Dept. of City Planning (ZoLa)",
+      "result": {
+        "key": "zoning",
+        "sourceUrl": "https://zola.planning.nyc.gov/l/lot/4/277/1",
+        "retrievedAt": "2026-11-14T17:38:18.828Z",
+        "runId": "6a10b04d-6cc3-4b0a-9c62-c9e064bf9137",
+        "status": "found",
+        "records": [
+          {
+            "id": null,
+            "title": "Zoning District",
+            "date": "2026-11-14",
+            "status": "found",
+            "detail": "M1-4",
+            "url": "https://zola.planning.nyc.gov/l/lot/4/277/1",
+            "quote": "Zoning District: M1-4",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Lot Area",
+            "date": "2026-11-14",
+            "status": "found",
+            "detail": "120,000 sq ft",
+            "url": "https://zola.planning.nyc.gov/l/lot/4/277/1",
+            "quote": "Lot Area: 120,000 sq ft",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Gross Floor Area (Building Area)",
+            "date": "2026-11-14",
+            "status": "found",
+            "detail": "625,000 sq ft",
+            "url": "https://zola.planning.nyc.gov/l/lot/4/277/1",
+            "quote": "Gross Floor Area: 625,000 sq ft",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Land Use",
+            "date": "2026-11-14",
+            "status": "found",
+            "detail": "Commercial & Office Buildings",
+            "url": "https://zola.planning.nyc.gov/l/lot/4/277/1",
+            "quote": "Land Use: Commercial & Office Buildings",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Year Built",
+            "date": "2026-11-14",
+            "status": "found",
+            "detail": "1919",
+            "url": "https://zola.planning.nyc.gov/l/lot/4/277/1",
+            "quote": "Year Built: 1919",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Number of Floors",
+            "date": "2026-11-14",
+            "status": "found",
+            "detail": "5",
+            "url": "https://zola.planning.nyc.gov/l/lot/4/277/1",
+            "quote": "Number of Floors: 5",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Owner Type",
+            "date": "2026-11-14",
+            "status": "found",
+            "detail": "Private",
+            "url": "https://zola.planning.nyc.gov/l/lot/4/277/1",
+            "quote": "Owner Type: Private",
+            "verified": "unchecked"
+          }
+        ],
+        "reason": "All requested fields were found on the ZOLA lot info panel for BBL 4002770001 (30-30 Thomson Avenue, Queens). Fields not displayed on the page (Commercial Overlay, Special Purpose District, Limited Height District, FAR, Residential Units, Landmark/Historic District Status) are omitted as instructed. ",
+        "summary": "Property 30-30 Thomson Avenue, Queens, NY 11101 (BBL 4002770001, BIN 4003533, Block 277, Lot 1) — BBL/BIN match confirmed. The ZOLA lot info panel displayed the following records. Fields not shown on the page were omitted per the rules."
+      }
+    },
+    {
+      "key": "tax",
+      "title": "Property tax & assessment",
+      "official_source": "NYC Dept. of Finance",
+      "result": {
+        "key": "tax",
+        "sourceUrl": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+        "retrievedAt": "2026-11-14T17:39:57.850Z",
+        "runId": "3e4b0cfa-5760-48e0-8e6a-4a097968480d",
+        "status": "found",
+        "records": [
+          {
+            "id": null,
+            "title": "Tax Class",
+            "date": "2026/27",
+            "status": "found",
+            "detail": "4",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Tax Class: 4",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Market Value",
+            "date": "2026/27",
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Market value not displayed on this property details page.",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Assessed Value - Land",
+            "date": "2026/27",
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Assessed value not displayed on this property details page.",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Assessed Value - Improvement",
+            "date": "2026/27",
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Assessed value not displayed on this property details page.",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Assessed Value - Total",
+            "date": "2026/27",
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Assessed value not displayed on this property details page.",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Exemptions",
+            "date": "2026/27",
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Exemptions not listed on this property details page.",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Property Owner / Billing Name",
+            "date": "2026/27",
+            "status": "found",
+            "detail": "CELTIC 30-30 HOLDINGS LLC",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Property Owner(s): CELTIC 30-30 HOLDINGS LLC",
+            "verified": "no"
+          }
+        ],
+        "reason": null,
+        "summary": "Property 30-30 Thomson Avenue, Queens, NY 11101 (Block 277, Lot 1, BBL 4002770001, BIN 4003533) was found on the NYC Finance Department of Finance property records site. Only the first property result matched the BBL/BIN exactly."
+      }
+    },
+    {
+      "key": "flood",
+      "title": "FEMA flood zone",
+      "official_source": "FEMA National Flood Hazard Layer",
+      "result": {
+        "key": "flood",
+        "sourceUrl": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+        "retrievedAt": "2026-11-14T17:40:20.615Z",
+        "runId": "c4f3cf9b-16f1-44d8-b273-da581d48d078",
+        "status": "found",
+        "records": [
+          {
+            "id": null,
+            "title": "Flood Zone (FLD_ZONE)",
+            "date": null,
+            "status": "found",
+            "detail": "X",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "FLD_ZONE: X",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "Zone Subtype (ZONE_SUBTY)",
+            "date": null,
+            "status": "found",
+            "detail": "AREA OF MINIMAL FLOOD HAZARD",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "ZONE_SUBTY: AREA OF MINIMAL FLOOD HAZARD",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "SFHA True/False (SFHA_TF)",
+            "date": null,
+            "status": "found",
+            "detail": "F",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "SFHA_TF: F",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "FIRM Database ID (DFIRM_ID)",
+            "date": null,
+            "status": "found",
+            "detail": "360497",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "DFIRM_ID: 360497",
+            "verified": "yes"
+          }
+        ],
+        "reason": null,
+        "summary": "One record found from the FEMA National Flood Hazard Layer for the property at 30-30 Thomson Avenue, Queens, NY 11101 (BBL 4002770001, BIN 4003533) queried at coordinates -73.93608, 40.744072. The property is in an area of minimal flood hazard (Zone X). STATIC_BFE is -9999, indicating no applicable base flood elevation for this zone. The DFIRM_ID is 360497 and the flood area ID is 360497_2184."
+      }
+    },
+    {
+      "key": "schools",
+      "title": "Zoned schools",
+      "official_source": "NYC Dept. of Education",
+      "result": {
+        "key": "schools",
+        "sourceUrl": "https://www.schools.nyc.gov/find-a-school",
+        "retrievedAt": "2026-11-14T17:42:45.263Z",
+        "runId": "33fd0617-8c25-487b-9c88-c4da6cbc3316",
+        "status": "found",
+        "records": [
+          {
+            "id": "Q199",
+            "title": "P.S. 199 Maurice A. Fitzgerald",
+            "date": null,
+            "status": "found",
+            "detail": "Grades 0K–5, District 24, 39-20 48 Avenue, Queens, 11104",
+            "url": "https://www.schools.nyc.gov/find-a-school",
+            "quote": "P.S. 199 Maurice A. Fitzgerald - Q199, 39-20 48 Avenue Queens, 11104, 718-784-3431",
+            "verified": "no"
+          },
+          {
+            "id": "Q125",
+            "title": "I.S. 125 Thom J. McCann Woodside",
+            "date": null,
+            "status": "found",
+            "detail": "Grades 6–8, District 24, 46-02 47 AVENUE, Queens",
+            "url": "https://www.schools.nyc.gov/find-a-school",
+            "quote": "I.S. 125 Thom J. McCann Woodside - Q125, 46-02 47 AVENUE Queens, 11377, 718-760-5560",
+            "verified": "no"
+          },
+          {
+            "id": "Q450",
+            "title": "Long Island City High School",
+            "date": null,
+            "status": "found",
+            "detail": "Grades 9–12, District 30, 14-30 Broadway, Queens",
+            "url": "https://www.schools.nyc.gov/find-a-school",
+            "quote": "Long Island City High School - Q450, 14-30 Broadway Queens, 11106, 718-786-2500",
+            "verified": "no"
+          }
+        ],
+        "reason": "Found zoned schools for 30-30 Thomson Avenue, Queens, NY 11101 (BBL 4002770001, BIN 4003533).",
+        "summary": "Three zoned schools were found for the address on the NYC Schools website."
+      }
+    }
+  ]
+}

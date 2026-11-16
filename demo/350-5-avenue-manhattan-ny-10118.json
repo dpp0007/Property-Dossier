@@ -1,0 +1,588 @@
+{
+  "generatedAt": "2026-11-14T17:21:02.501Z",
+  "disclaimer": "Retrieved live from official sources by TinyFish. Gaps are flagged, never guessed. Verify against the linked source before relying on it.",
+  "property": {
+    "address": "350 5 Avenue, Manhattan, NY 10118",
+    "housenumber": "350",
+    "street": "5 AVENUE",
+    "borough": "Manhattan",
+    "bbl": "1008350041",
+    "boroCode": 1,
+    "block": "00835",
+    "lot": "0041",
+    "bin": "1015862",
+    "zip": "10118",
+    "lng": -73.985656,
+    "lat": 40.748441
+  },
+  "coverage": {
+    "total": 7,
+    "found": 6,
+    "none": 1,
+    "gaps": 0,
+    "pending": 0
+  },
+  "sections": [
+    {
+      "key": "permits",
+      "title": "Building permits & job filings",
+      "official_source": "NYC Dept. of Buildings (BISweb)",
+      "result": {
+        "key": "permits",
+        "sourceUrl": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+        "retrievedAt": "2026-11-14T17:13:11.131Z",
+        "runId": "e679c1b6-3945-4a86-bda0-035dee82434c",
+        "status": "found",
+        "records": [
+          {
+            "id": "120581502",
+            "title": "A1 - ALTERATION TYPE 1",
+            "date": "07/22/2026",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+            "quote": "120581502 A1 07/22/2026 P APPROVED POST APPROVAL AMENDMENT FOR 01 MIRON",
+            "verified": "yes"
+          },
+          {
+            "id": "120581502",
+            "title": "A1 - ALTERATION TYPE 1",
+            "date": "01/27/2026",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+            "quote": "120581502 A1 01/27/2026 P APPROVED POST APPROVAL AMENDMENT FOR 01 MIRON",
+            "verified": "yes"
+          },
+          {
+            "id": "120581502",
+            "title": "A1 - ALTERATION TYPE 1",
+            "date": "09/11/2025",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+            "quote": "120581502 A1 09/11/2025 P APPROVED POST APPROVAL AMENDMENT FOR 01 MIRON",
+            "verified": "yes"
+          },
+          {
+            "id": "120581502",
+            "title": "A1 - ALTERATION TYPE 1",
+            "date": "05/22/2024",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+            "quote": "120581502 A1 05/22/2024 P APPROVED POST APPROVAL AMENDMENT FOR 01 MIRON",
+            "verified": "yes"
+          },
+          {
+            "id": "120581502",
+            "title": "A1 - ALTERATION TYPE 1",
+            "date": "03/29/2024",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+            "quote": "120581502 A1 03/29/2024 P APPROVED POST APPROVAL AMENDMENT FOR 01 MIRON",
+            "verified": "yes"
+          },
+          {
+            "id": "120581502",
+            "title": "A1 - ALTERATION TYPE 1",
+            "date": "01/09/2024",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+            "quote": "120581502 A1 01/09/2024 P APPROVED POST APPROVAL AMENDMENT FOR 01 MIRON",
+            "verified": "yes"
+          },
+          {
+            "id": "120581502",
+            "title": "A1 - ALTERATION TYPE 1",
+            "date": "07/24/2023",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+            "quote": "120581502 A1 07/24/2023 P APPROVED POST APPROVAL AMENDMENT FOR 01 MIRON",
+            "verified": "yes"
+          },
+          {
+            "id": "120581502",
+            "title": "A1 - ALTERATION TYPE 1",
+            "date": "01/20/2023",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 WORK ON FLOOR SHOULD INCLUDE SUB,CEL,MEZ, 0",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+            "quote": "120581502 A1 01/20/2023 P APPROVED POST APPROVAL AMENDMENT FOR 01 WORK ON FLOOR SHOULD INCLUDE SUB,CEL,MEZ, 0 MIRON",
+            "verified": "yes"
+          },
+          {
+            "id": "120581502",
+            "title": "A1 - ALTERATION TYPE 1",
+            "date": "04/21/2022",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+            "quote": "120581502 A1 04/21/2022 P APPROVED POST APPROVAL AMENDMENT FOR 01 MIRON",
+            "verified": "yes"
+          },
+          {
+            "id": "120581502",
+            "title": "A1 - ALTERATION TYPE 1",
+            "date": "11/05/2021",
+            "status": "P APPROVED",
+            "detail": "POST APPROVAL AMENDMENT FOR 01",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=1015862",
+            "quote": "120581502 A1 11/05/2021 P APPROVED POST APPROVAL AMENDMENT FOR 01 MIRON",
+            "verified": "yes"
+          }
+        ],
+        "reason": "Records displayed for BIN 1015862 (338 5 Avenue, Manhattan — the site lists this address for BIN 1015862, which corresponds to the requested BBL 1008350041). The page states: 'The below job records do not include filings submitted in DOB NOW; use the DOB NOW Public Portal to access DOB NOW records.' Showing the 10 most recent filings from the first page of results.",
+        "summary": "Property 350 5 Avenue / 338 5 Avenue (BIN 1015862, BBL 1008350041, Manhattan, Block 835, Lot 41). The site returned 10 recent job filings. All are Type A1 or A2 Alteration filings. Newer filings may exist in DOB NOW."
+      }
+    },
+    {
+      "key": "dob_violations",
+      "title": "OATH/ECB violations (DOB)",
+      "official_source": "NYC Dept. of Buildings (BISweb)",
+      "result": {
+        "key": "dob_violations",
+        "sourceUrl": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+        "retrievedAt": "2026-11-14T17:13:44.833Z",
+        "runId": "c906786a-5146-4832-8fe3-e6e2aef96ec9",
+        "status": "found",
+        "records": [
+          {
+            "id": "39107427M",
+            "title": "CLASS - 1 ELEVATOR",
+            "date": "03/01/2024",
+            "status": "RESOLVED - CERTIFICATE ACCEPTED",
+            "detail": "ESRT EMPIRE STATE BUILDIN | Infraction: 151 | Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+            "quote": "39107427M CLASS - 1 ELEVATOR 03/01/2024 RESOLVED - CERTIFICATE ACCEPTED ESRT EMPIRE STATE BUILDIN 151 $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "35646458M",
+            "title": "CLASS - 1 N/A",
+            "date": "04/18/2022",
+            "status": "RESOLVED - N/A - DISMISSED",
+            "detail": "CROSS MANAGEMENT CORP | Infraction: 1M7 | Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+            "quote": "35646458M CLASS - 1 N/A 04/18/2022 RESOLVED - N/A - DISMISSED CROSS MANAGEMENT CORP 1M7 $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "39007179Y",
+            "title": "CLASS - 2 CONSTRUCTION",
+            "date": "08/06/2019",
+            "status": "RESOLVED - CURE ACCEPTED",
+            "detail": "ESRT EMPIRE STATE BUILDIN | Infraction: 210 | Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+            "quote": "39007179Y CLASS - 2 CONSTRUCTION 08/06/2019 RESOLVED - CURE ACCEPTED ESRT EMPIRE STATE BUILDIN 210 $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "38265858L",
+            "title": "CLASS - 2 ELEVATOR",
+            "date": "10/23/2018",
+            "status": "RESOLVED - CERTIFICATE ACCEPTED",
+            "detail": "ESRT EMPIRE STATE BUILDIN | Infraction: 251 | Penalty: $-310.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+            "quote": "38265858L CLASS - 2 ELEVATOR 10/23/2018 RESOLVED - CERTIFICATE ACCEPTED ESRT EMPIRE STATE BUILDIN 251 $-310.00",
+            "verified": "yes"
+          },
+          {
+            "id": "37002935P",
+            "title": "CLASS - 2 N/A",
+            "date": "06/20/2017",
+            "status": "RESOLVED - CERTIFICATE ACCEPTED",
+            "detail": "ESRT EMPIRE STATE BUILDIN | Infraction: 291 | Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+            "quote": "37002935P CLASS - 2 N/A 06/20/2017 RESOLVED - CERTIFICATE ACCEPTED ESRT EMPIRE STATE BUILDIN 291 $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "35267662J",
+            "title": "CLASS - 2 CONSTRUCTION",
+            "date": "06/03/2017",
+            "status": "RESOLVED - N/A - DISMISSED",
+            "detail": "ESRT EMPIRE STATE BLDG L | Infraction: 263 | Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+            "quote": "35267662J CLASS - 2 CONSTRUCTION 06/03/2017 RESOLVED - N/A - DISMISSED ESRT EMPIRE STATE BLDG L 263 $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "35244255K",
+            "title": "CLASS - 1 CONSTRUCTION",
+            "date": "04/10/2017",
+            "status": "RESOLVED - N/A - DISMISSED",
+            "detail": "ESRT EMPIRE STATES BUILDI | Infraction: 104 | Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+            "quote": "35244255K CLASS - 1 CONSTRUCTION 04/10/2017 RESOLVED - N/A - DISMISSED ESRT EMPIRE STATES BUILDI 104 $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "38251304M",
+            "title": "CLASS - 1 ELEVATOR",
+            "date": "11/22/2016",
+            "status": "RESOLVED - CERTIFICATE ACCEPTED",
+            "detail": "ESRT EMPIRE STATE BLDG | Infraction: 151 | Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+            "quote": "38251304M CLASS - 1 ELEVATOR 11/22/2016 RESOLVED - CERTIFICATE ACCEPTED ESRT EMPIRE STATE BLDG 151 $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "35223607M",
+            "title": "CLASS - 1 SIGNS",
+            "date": "11/18/2016",
+            "status": "RESOLVED - N/A - DISMISSED",
+            "detail": "THOMAS HENNIGAN TEAM PR.O | Infraction: 162 | Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+            "quote": "35223607M CLASS - 1 SIGNS 11/18/2016 RESOLVED - N/A - DISMISSED THOMAS HENNIGAN TEAM PR.O 162 $0.00",
+            "verified": "yes"
+          },
+          {
+            "id": "35223605Z",
+            "title": "CLASS - 1 SIGNS",
+            "date": "11/08/2016",
+            "status": "RESOLVED - N/A - DISMISSED",
+            "detail": "CARE OF TEAM PROMOTION LL | Infraction: 165 | Penalty: $0.00",
+            "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=1015862",
+            "quote": "35223605Z CLASS - 1 SIGNS 11/08/2016 RESOLVED - N/A - DISMISSED CARE OF TEAM PROMOTION LL 165 $0.00",
+            "verified": "yes"
+          }
+        ],
+        "reason": "Data extracted from page 1 of OATH/ECB violations for BIN 1015862 (350 5 Avenue/338 5 Avenue, Manhattan, BBL 1008350041). Note: the site displays the property name as \"338 5 AVENUE MANHATTAN\" but the BIN 1015862 matches the requested property (Empire State Building).",
+        "summary": "Header Totals: Total Violations Issued = 241 | Open / Certificate of Correction Required = 0 | Hearings Completed / Defaulted = 241 | Pending = 0. This page covers OATH/ECB violations only."
+      }
+    },
+    {
+      "key": "hpd",
+      "title": "Housing maintenance violations",
+      "official_source": "NYC Housing Preservation & Development",
+      "result": {
+        "key": "hpd",
+        "sourceUrl": "https://hpdonline.nyc.gov/hpdonline/building/2780/violations",
+        "retrievedAt": "2026-11-14T17:16:06.013Z",
+        "runId": "68f42546-64a2-40b6-8b9c-df91984e2c10",
+        "status": "none_found",
+        "records": [],
+        "reason": "The site confirms that the property (BIN 1015862, Block 835, Lot 41) located at 338 5 Avenue, Manhattan, 10118 has zero violations. The Violations tab explicitly states: 'There are no open violations for this building.' The overview also shows 'Total Violations: 0 (A Class: 0, B Class: 0, C Class: 0, I Class: 0)'. Closed violations are not accessible on this portal and can only be accessed through NYC Open Data or FOIL.",
+        "summary": "Property 350 5 Avenue (listed as 338 5 Avenue on the site) matched by BIN 1015862, Block 835, Lot 41. Building ID: 2780. No violations found in HPD system."
+      }
+    },
+    {
+      "key": "zoning",
+      "title": "Zoning & land use",
+      "official_source": "NYC Dept. of City Planning (ZoLa)",
+      "result": {
+        "key": "zoning",
+        "sourceUrl": "https://zola.planning.nyc.gov/l/lot/1/835/41",
+        "retrievedAt": "2026-11-14T17:18:49.473Z",
+        "runId": "fa5131b4-fb22-47cf-8a91-beadc819b857",
+        "status": "found",
+        "records": [
+          {
+            "id": null,
+            "title": "Zoning District(s)",
+            "date": "C5-3, C6-4.5, MID",
+            "status": "Zoning Districts: C5-3, C6-4.5, MID",
+            "detail": "C5-3, C6-4.5, MID",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Zoning Districts: C5-3, C6-4.5, MID",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Commercial Overlay",
+            "date": "None found",
+            "status": "No commercial overlay shown",
+            "detail": "None found",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Intersecting Map Layers: None found",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Special Purpose District",
+            "date": "None found",
+            "status": "No special purpose district shown",
+            "detail": "None found",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "None found",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Limited Height District",
+            "date": "None found",
+            "status": "No limited height district shown",
+            "detail": "None found",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "None found",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Max FAR",
+            "date": "None found",
+            "status": "Max FAR values are not explicitly listed",
+            "detail": "None found",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Max FAR values are not explicitly listed in the provided text content",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Lot Area",
+            "date": "91,351 sq ft",
+            "status": "Lot area as shown",
+            "detail": "91,351 sq ft",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Lot Area: 91,351 sq ft",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Building Area",
+            "date": "2,812,739 sq ft",
+            "status": "Gross Floor Area as shown",
+            "detail": "2,812,739 sq ft",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Gross Floor Area: 2,812,739 sq ft",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Land Use",
+            "date": "Commercial & Office Buildings",
+            "status": "Land use classification",
+            "detail": "Commercial & Office Buildings",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Land Use: Commercial & Office Buildings",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Year Built",
+            "date": "1931",
+            "status": "Year built",
+            "detail": "1931",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Year Built: 1931",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Number of Floors",
+            "date": "102",
+            "status": "Number of floors",
+            "detail": "102",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Number of Floors: 102",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Residential Units",
+            "date": "513",
+            "status": "Total units as shown",
+            "detail": "513",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Total # of Units: 513",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Owner Type",
+            "date": "Private",
+            "status": "Owner type",
+            "detail": "Private",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Owner Type: Private",
+            "verified": "unchecked"
+          },
+          {
+            "id": null,
+            "title": "Landmark/Historic District Status",
+            "date": "INDIVIDUAL AND INTERIOR LANDMARK",
+            "status": "Landmark status",
+            "detail": "INDIVIDUAL AND INTERIOR LANDMARK",
+            "url": "https://zola.planning.nyc.gov/l/lot/1/835/41#18.18/40.748438/-73.986385",
+            "quote": "Landmark Status: INDIVIDUAL AND INTERIOR LANDMARK",
+            "verified": "unchecked"
+          }
+        ],
+        "reason": "Property BBL 1008350041 (338 5 Avenue, Manhattan, Block 835, Lot 41) was found on the ZOLA page. Note: The task requested 350 5 Avenue, but the page displays 338 5 Avenue for this exact BBL.",
+        "summary": "The ZOLA page at https://zola.planning.nyc.gov/l/lot/1/835/41 shows the property information for BBL 1008350041. The address on the page is listed as \"338 5 AVENUE, 10001\" (the task requested 350 5 Avenue, which is the same building but the page shows 338). All details below are extracted exactly as displayed on the page."
+      }
+    },
+    {
+      "key": "tax",
+      "title": "Property tax & assessment",
+      "official_source": "NYC Dept. of Finance",
+      "result": {
+        "key": "tax",
+        "sourceUrl": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+        "retrievedAt": "2026-11-14T17:18:57.168Z",
+        "runId": "4de12ce7-cc50-460a-ade0-0d9f1f70d0d9",
+        "status": "found",
+        "records": [
+          {
+            "id": null,
+            "title": "Tax Class",
+            "date": null,
+            "status": "found",
+            "detail": "4",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Tax Class: 4",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Market Value",
+            "date": null,
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Not shown on this page",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Assessed Value",
+            "date": null,
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Not shown on this page",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Exemptions",
+            "date": null,
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Not shown on this page",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Owner/Billing Name",
+            "date": null,
+            "status": "found",
+            "detail": "ESRT EMPIRE STATE BUILDING, L.L.C.",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Property Owner(s): ESRT EMPIRE STATE BUILDING, L.L.C.",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Tax Year",
+            "date": "2026/27",
+            "status": "found",
+            "detail": "2026/27",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Tax Year: 2026/27",
+            "verified": "no"
+          }
+        ],
+        "reason": "Found matching property for BBL 1008350041 (Block 835, Lot 41).",
+        "summary": "The property at 350 5 Avenue, Manhattan, NY 10118 (Block 835, Lot 41, BBL 1008350041, BIN 1015862) was located. The search returned one result for 338 5 Avenue (same BBL/BIN match), owned by ESRT EMPIRE STATE BUILDING, L.L.C."
+      }
+    },
+    {
+      "key": "flood",
+      "title": "FEMA flood zone",
+      "official_source": "FEMA National Flood Hazard Layer",
+      "result": {
+        "key": "flood",
+        "sourceUrl": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.985656,40.748441&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+        "retrievedAt": "2026-11-14T17:20:42.101Z",
+        "runId": "9d0e3f85-1463-494f-844f-49afea9a4acb",
+        "status": "found",
+        "records": [
+          {
+            "id": null,
+            "title": "FLD_ZONE",
+            "date": null,
+            "status": null,
+            "detail": "X",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.985656,40.748441&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "FLD_ZONE: X",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "ZONE_SUBTY",
+            "date": null,
+            "status": null,
+            "detail": "AREA OF MINIMAL FLOOD HAZARD",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.985656,40.748441&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "ZONE_SUBTY: AREA OF MINIMAL FLOOD HAZARD",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "SFHA_TF",
+            "date": null,
+            "status": null,
+            "detail": "F",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.985656,40.748441&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "SFHA_TF: F",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "DFIRM_ID",
+            "date": null,
+            "status": null,
+            "detail": "360497",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.985656,40.748441&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "DFIRM_ID: 360497",
+            "verified": "yes"
+          }
+        ],
+        "reason": null,
+        "summary": "One record returned by FEMA National Flood Hazard Layer API for coordinates matching 350 5 Avenue, Manhattan, NY (BBL 1008350041, BIN 1015862). The property is in Zone X (area of minimal flood hazard), outside the Special Flood Hazard Area. STATIC_BFE is -9999 (not applicable for this zone)."
+      }
+    },
+    {
+      "key": "schools",
+      "title": "Zoned schools",
+      "official_source": "NYC Dept. of Education",
+      "result": {
+        "key": "schools",
+        "sourceUrl": "https://schoolsearch.schools.nyc/",
+        "retrievedAt": "2026-11-14T17:20:44.380Z",
+        "runId": "22da1879-d94b-40ec-b78e-aa048eb209a5",
+        "status": "found",
+        "records": [
+          {
+            "id": "M033",
+            "title": "P.S. 033 Chelsea Prep",
+            "date": null,
+            "status": "found",
+            "detail": "PK,0K,01,02,03,04,05,SE · District 02 · 281 9 Avenue, Manhattan, 10001",
+            "url": "https://schoolsearch.schools.nyc/",
+            "quote": "P.S. 033 Chelsea Prep - M033, 281 9 Avenue, Manhattan, 10001",
+            "verified": "no"
+          },
+          {
+            "id": "M297",
+            "title": "M.S. 297",
+            "date": null,
+            "status": "found",
+            "detail": "06,07,08,SE · District 02 · 75 MORTON STREET, Manhattan, 10014",
+            "url": "https://schoolsearch.schools.nyc/",
+            "quote": "M.S. 297 - M297, 75 MORTON STREET, Manhattan, 10014",
+            "verified": "no"
+          }
+        ],
+        "reason": "Search returned zoned schools for 350 5 Avenue, Manhattan. Matches the specified BBL 1008350041 and BIN 1015862 for Manhattan.",
+        "summary": "Found 2 zoned schools (1 elementary, 1 middle school) for the address 350 5 Avenue, Manhattan (BBL 1008350041, BIN 1015862). No zoned high school is listed."
+      }
+    }
+  ]
+}
