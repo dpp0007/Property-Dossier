@@ -1,10 +1,10 @@
 # Property Dossier: 350 5 Avenue, Manhattan, NY 10118
 
-BBL 1008350041 · BIN 1015862 · generated 17/11/2026, 1:52:47 pm
-Coverage: 6 sources with records, 1 confirmed none on file, 1 gaps (not retrieved).
+BBL 1008350041 · BIN 1015862 · generated 17/11/2026, 2:16:07 pm
+Coverage: 6 sources with records, 2 confirmed none on file, 0 gaps (not retrieved).
 
 ## Building permits & job filings
-Source: [NYC Dept. of Buildings (BISweb)](https://data.cityofnewyork.us/d/ic3t-wcy2)
+Source: [NYC Open Data, DOB datasets (FALLBACK: BISweb could not be read)](https://data.cityofnewyork.us/d/ic3t-wcy2)
 > TinyFish Agent could not read BISweb (Timed out after 480s (still queued: too many concurrent TinyFish runs).). FALLBACK: read live by TinyFish Fetch from NYC Open Data, the city's official DOB data publication. It can lag BISweb. Showing the 10 most recent of 3816 filings (legacy BIS and DOB NOW datasets, BIN 1015862). Rows sharing a job number are amendments of one job.
 **Note:** 10 filing rows. Newer filings may exist only in DOB NOW, so this list may be incomplete.
 - **Job filing, type Alteration (DOB NOW)** (#M01355697-P2 · 10/21/2026 · Approved): General Construction taking place on the 40th Floor as per plans filed herewith. No change in Use, Egress or Occupancy. [source](https://data.cityofnewyork.us/resource/w9ak-ipjd.json?bin=1015862&$select=job_filing_number%2Cfiling_status%2Cjob_type%2Cfiling_date%2Cjob_description%2Ccurrent_status_date&$order=filing_date%20DESC&$limit=10) _✓ re-verified_
@@ -19,7 +19,7 @@ Source: [NYC Dept. of Buildings (BISweb)](https://data.cityofnewyork.us/d/ic3t-w
 - **Job filing, type Alteration (DOB NOW)** (#M01403016-I1 · 08/12/2026 · Permit Entire): GENERAL CONSTRUCTION FOR LOUVERS ON THE 34TH FL AS PLANS FILED HEREWITH. NO CHANGE IN USE, EGRESS, OR OCCUPANCY. [source](https://data.cityofnewyork.us/resource/w9ak-ipjd.json?bin=1015862&$select=job_filing_number%2Cfiling_status%2Cjob_type%2Cfiling_date%2Cjob_description%2Ccurrent_status_date&$order=filing_date%20DESC&$limit=10) _✓ re-verified_
 
 ## OATH/ECB violations (DOB)
-Source: [NYC Dept. of Buildings (BISweb)](https://data.cityofnewyork.us/d/6bgk-3dad)
+Source: [NYC Open Data, DOB datasets (FALLBACK: BISweb could not be read)](https://data.cityofnewyork.us/d/6bgk-3dad)
 > TinyFish Agent could not read BISweb (Timed out after 480s (still queued: too many concurrent TinyFish runs).). FALLBACK: read live by TinyFish Fetch from NYC Open Data, the city's official DOB data publication. It can lag BISweb. OATH/ECB only: 241 violations on file for BIN 1015862, 0 with status ACTIVE. Showing the 10 most recent.
 - **CLASS - 1 · Elevators** (#39107427M · 03/01/2024 · RESOLVE): HOIST CABLES DAMAGED. DURING TRAVEL IN THE DOWN DIRECTION THE HOIST ROPES CROSSED CAUSING THE ELEVATOR TO SHUT DOWN. HOIST ROPES NEED TO BE REPLACED AND INSPECTION BY BY A NYCDOB ELEVATOR INSPECTOR AND TEST WEI · penalty $1250 · balance due $0 · respondent ESR [source](https://data.cityofnewyork.us/resource/6bgk-3dad.json?bin=1015862&$select=ecb_violation_number%2Cissue_date%2Cseverity%2Cviolation_type%2Cecb_violation_status%2Crespondent_name%2Cviolation_description%2Cpenality_imposed%2Cbalance_due&$order=issue_date%20DESC&$limit=10) _✓ re-verified_
 - **CLASS - 1 · Unknown** (#35646458M · 04/18/2022 · RESOLVE): FAILURE TO NOTIFY THE DEPT. OF AN ACCIDENT/INCIDENT THAT RESULTED IN AFATALITY OR AN INJURY.NOTE:A WORKER WERE INJURED WHEN USING A MANLIFT TO WORK ON THE DUCT.WHEN HIS HAND SLIPPED &amp; THE SHARP EDGE OF THE DUCT · penalty $0 · balance due $0 · respondent CR [source](https://data.cityofnewyork.us/resource/6bgk-3dad.json?bin=1015862&$select=ecb_violation_number%2Cissue_date%2Cseverity%2Cviolation_type%2Cecb_violation_status%2Crespondent_name%2Cviolation_description%2Cpenality_imposed%2Cbalance_due&$order=issue_date%20DESC&$limit=10) _✓ re-verified_
@@ -74,8 +74,9 @@ Source: [FEMA National Flood Hazard Layer](https://hazards.fema.gov/arcgis/rest/
 - **DFIRM_ID**: 360497 [source](https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.985656,40.748441&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json) _✓ re-verified_
 
 ## Zoned schools
-Source: [NYC Dept. of Education](https://www.schools.nyc.gov/)
-**GAP, not retrieved:** Timed out after 480s.
+Source: [NYC Dept. of Education](https://www.schools.nyc.gov/find-a-school)
+No records on file at the source (The official NYC DOE schools website (schools.nyc.gov) explicitly displays "No zoned schools for this address" for 350 5 Avenue, Manhattan (BBL 1008350041, BIN 1015862). The search was performed on the Find a School portal, the Manhattan address was selected from the address suggestions, and the "Show Zoned Schools" filter was enabled, confirming zero zoned schools are returned for this property.).
+> The property 350 5 Avenue, Manhattan, NY 10118 (BBL 1008350041, BIN 1015862) has no zoned schools assigned according to the NYC Department of Education's official school zone lookup tool at schools.nyc.gov.
 
 ## Public records mentioning this address
 Source: [NYC.gov, NY State, FEMA (TinyFish Search + Fetch)](https://www.nyc.gov/)

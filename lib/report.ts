@@ -43,7 +43,8 @@ export function toMarkdown(place: Place, res: Results) {
   ];
   for (const s of SOURCES) {
     const r = res[s.key];
-    L.push(`## ${s.title}`, `Source: [${s.org}](${r?.sourceUrl ?? s.home})`);
+    const fb = !!r?.summary?.includes("FALLBACK");
+    L.push(`## ${s.title}`, `Source: [${fb ? "NYC Open Data, DOB datasets (FALLBACK: BISweb could not be read)" : s.org}](${r?.sourceUrl ?? s.home})`);
     if (!r) {
       L.push("_Not retrieved._", "");
       continue;

@@ -104,3 +104,38 @@
 [08:39:45] done  30-30 Thomson Avenue, Queens, NY 11101 schools unavailable 0 records 2s | Unexpected token '<', "<!DOCTYPE "... is not valid JSON
 [08:39:45] done  30-30 Thomson Avenue, Queens, NY 11101 notices unavailable 0 records 0s | Unexpected token '<', "<!DOCTYPE "... is not valid JSON
 [08:39:45] ALL DONE
+[08:40:33] geocoded 350 5th Ave, Manhattan -> 350 5 Avenue, Manhattan, NY 10118 1008350041
+[08:40:34] geocoded 1 Metrotech Center, Brooklyn -> 1 Metrotech Center, Brooklyn, NY 11201 3001470004
+[08:40:35] geocoded 30-30 Thomson Ave, Queens -> 30-30 Thomson Avenue, Queens, NY 11101 4002770001
+[08:40:35] queued 5 section run(s)
+[08:40:35] start 350 5 Avenue, Manhattan, NY 10118 schools
+[08:40:35] start 30-30 Thomson Avenue, Queens, NY 11101 tax
+[08:46:07] done  350 5 Avenue, Manhattan, NY 10118 schools none_found 0 records 332s | The official NYC DOE schools website (schools.nyc.gov) explicitly displays "No zoned schools for thi
+[08:46:07] start 30-30 Thomson Avenue, Queens, NY 11101 flood
+[08:47:21] done  30-30 Thomson Avenue, Queens, NY 11101 tax unavailable 0 records 406s | Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[08:47:21] start 30-30 Thomson Avenue, Queens, NY 11101 schools
+[08:47:35] done  30-30 Thomson Avenue, Queens, NY 11101 schools unavailable 0 records 14s | Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[08:47:35] start 30-30 Thomson Avenue, Queens, NY 11101 notices
+[08:47:37] done  30-30 Thomson Avenue, Queens, NY 11101 notices unavailable 0 records 3s | Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[08:47:37] done  30-30 Thomson Avenue, Queens, NY 11101 flood unavailable 0 records 90s | Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[08:47:37] ALL DONE
+[08:49:27] geocoded 350 5th Ave, Manhattan -> 350 5 Avenue, Manhattan, NY 10118 1008350041
+[08:49:28] geocoded 1 Metrotech Center, Brooklyn -> 1 Metrotech Center, Brooklyn, NY 11201 3001470004
+[08:49:28] geocoded 30-30 Thomson Ave, Queens -> 30-30 Thomson Avenue, Queens, NY 11101 4002770001
+[08:49:28] queued 4 section run(s)
+[08:49:28] start 30-30 Thomson Avenue, Queens, NY 11101 tax
+[08:49:28] start 30-30 Thomson Avenue, Queens, NY 11101 flood
+[08:52:29] done  30-30 Thomson Avenue, Queens, NY 11101 tax found 11 records 180s 
+[08:52:29] start 30-30 Thomson Avenue, Queens, NY 11101 schools
+[08:57:36] done  30-30 Thomson Avenue, Queens, NY 11101 flood unavailable 0 records 487s | Timed out after 480s (still queued: too many concurrent TinyFish runs).
+[08:57:36] start 30-30 Thomson Avenue, Queens, NY 11101 notices
+[08:57:40] done  30-30 Thomson Avenue, Queens, NY 11101 notices found 6 records 4s 
+[08:58:53] done  30-30 Thomson Avenue, Queens, NY 11101 schools found 1 records 384s | The address 30-30 Thomson Avenue, Queens, NY 11101 (BBL 4002770001, BIN 4003533) was found on school
+[08:58:53] ALL DONE
+[08:59:08] geocoded 350 5th Ave, Manhattan -> 350 5 Avenue, Manhattan, NY 10118 1008350041
+[08:59:08] geocoded 1 Metrotech Center, Brooklyn -> 1 Metrotech Center, Brooklyn, NY 11201 3001470004
+[08:59:09] geocoded 30-30 Thomson Ave, Queens -> 30-30 Thomson Avenue, Queens, NY 11101 4002770001
+[08:59:09] queued 1 section run(s)
+[08:59:09] start 30-30 Thomson Avenue, Queens, NY 11101 flood
+[09:01:03] done  30-30 Thomson Avenue, Queens, NY 11101 flood found 4 records 114s 
+[09:01:03] ALL DONE

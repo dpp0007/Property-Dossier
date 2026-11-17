@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T08:22:47.553Z",
+  "generatedAt": "2026-11-17T08:46:07.624Z",
   "disclaimer": "Retrieved live from official sources by TinyFish. Gaps are flagged, never guessed. Verify against the linked source before relying on it.",
   "property": {
     "address": "350 5 Avenue, Manhattan, NY 10118",
@@ -18,15 +18,15 @@
   "coverage": {
     "total": 8,
     "found": 6,
-    "none": 1,
-    "gaps": 1,
+    "none": 2,
+    "gaps": 0,
     "pending": 0
   },
   "sections": [
     {
       "key": "permits",
       "title": "Building permits & job filings",
-      "official_source": "NYC Dept. of Buildings (BISweb)",
+      "official_source": "NYC Open Data, DOB datasets (FALLBACK: BISweb could not be read)",
       "result": {
         "key": "permits",
         "retrievedAt": "2026-11-17T08:02:26.276Z",
@@ -142,7 +142,7 @@
     {
       "key": "dob_violations",
       "title": "OATH/ECB violations (DOB)",
-      "official_source": "NYC Dept. of Buildings (BISweb)",
+      "official_source": "NYC Open Data, DOB datasets (FALLBACK: BISweb could not be read)",
       "result": {
         "key": "dob_violations",
         "retrievedAt": "2026-11-17T08:02:23.364Z",
@@ -564,13 +564,13 @@
       "official_source": "NYC Dept. of Education",
       "result": {
         "key": "schools",
-        "sourceUrl": "https://www.schools.nyc.gov/",
-        "retrievedAt": "2026-11-17T08:22:45.812Z",
-        "runId": "a619f276-0a81-4e8e-83d9-805d4bb4aea2",
-        "status": "unavailable",
-        "reason": "Timed out after 480s.",
-        "summary": null,
-        "records": []
+        "sourceUrl": "https://www.schools.nyc.gov/find-a-school",
+        "retrievedAt": "2026-11-17T08:46:06.986Z",
+        "runId": "56bb7e70-934e-48a0-9d1a-9852273267c6",
+        "status": "none_found",
+        "records": [],
+        "reason": "The official NYC DOE schools website (schools.nyc.gov) explicitly displays \"No zoned schools for this address\" for 350 5 Avenue, Manhattan (BBL 1008350041, BIN 1015862). The search was performed on the Find a School portal, the Manhattan address was selected from the address suggestions, and the \"Show Zoned Schools\" filter was enabled, confirming zero zoned schools are returned for this property.",
+        "summary": "The property 350 5 Avenue, Manhattan, NY 10118 (BBL 1008350041, BIN 1015862) has no zoned schools assigned according to the NYC Department of Education's official school zone lookup tool at schools.nyc.gov."
       }
     },
     {

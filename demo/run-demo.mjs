@@ -58,7 +58,7 @@ function save(run) {
     `Coverage: ${coverage.found} sources with records, ${coverage.none} confirmed none on file, ${coverage.gaps} gaps (not retrieved)${coverage.pending ? `, ${coverage.pending} not run` : ""}.`, ""];
   for (const [key, title, org] of SECTIONS) {
     const r = results[key];
-    L.push(`## ${title}`, `Source: [${org}](${r?.sourceUrl ?? ""})`);
+    L.push(`## ${title}`, `Source: [${r?.summary?.includes("FALLBACK") ? "NYC Open Data, DOB datasets (FALLBACK: BISweb could not be read)" : org}](${r?.sourceUrl ?? ""})`);
     if (!r) { L.push("_Not retrieved._", ""); continue; }
     if (r.status === "unavailable") L.push(`**GAP, not retrieved:** ${r.reason ?? "unknown"}`);
     else if (r.status === "none_found") L.push(`No records on file at the source${r.reason ? ` (${r.reason})` : ""}.`);

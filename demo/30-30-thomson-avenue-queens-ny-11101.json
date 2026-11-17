@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T08:39:45.585Z",
+  "generatedAt": "2026-11-17T09:01:03.089Z",
   "disclaimer": "Retrieved live from official sources by TinyFish. Gaps are flagged, never guessed. Verify against the linked source before relying on it.",
   "property": {
     "address": "30-30 Thomson Avenue, Queens, NY 11101",
@@ -17,16 +17,16 @@
   },
   "coverage": {
     "total": 8,
-    "found": 3,
+    "found": 7,
     "none": 1,
-    "gaps": 4,
+    "gaps": 0,
     "pending": 0
   },
   "sections": [
     {
       "key": "permits",
       "title": "Building permits & job filings",
-      "official_source": "NYC Dept. of Buildings (BISweb)",
+      "official_source": "NYC Open Data, DOB datasets (FALLBACK: BISweb could not be read)",
       "result": {
         "key": "permits",
         "retrievedAt": "2026-11-17T08:34:16.321Z",
@@ -142,7 +142,7 @@
     {
       "key": "dob_violations",
       "title": "OATH/ECB violations (DOB)",
-      "official_source": "NYC Dept. of Buildings (BISweb)",
+      "official_source": "NYC Open Data, DOB datasets (FALLBACK: BISweb could not be read)",
       "result": {
         "key": "dob_violations",
         "retrievedAt": "2026-11-17T08:37:33.552Z",
@@ -392,13 +392,124 @@
       "official_source": "NYC Dept. of Finance",
       "result": {
         "key": "tax",
-        "status": "unavailable",
-        "reason": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-        "summary": null,
-        "sourceUrl": "",
-        "records": [],
-        "retrievedAt": "2026-11-17T08:39:45.121Z",
-        "runId": null
+        "sourceUrl": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+        "retrievedAt": "2026-11-17T08:52:24.890Z",
+        "runId": "5955883f-ef6b-479b-b211-6877374197d0",
+        "status": "found",
+        "records": [
+          {
+            "id": null,
+            "title": "Property Address",
+            "date": null,
+            "status": "found",
+            "detail": "30 -30 THOMSON AVENUE, 11101",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "30 -30 THOMSON AVENUE, 11101",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Borough",
+            "date": null,
+            "status": "found",
+            "detail": "QUEENS",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Borough: QUEENS",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Block",
+            "date": null,
+            "status": "found",
+            "detail": "277",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Block: 277",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Lot",
+            "date": null,
+            "status": "found",
+            "detail": "1",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Lot: 1",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Property Owner(s)",
+            "date": null,
+            "status": "found",
+            "detail": "CELTIC 30-30 HOLDINGS LLC",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Property Owner(s) CELTIC 30-30 HOLDINGS LLC",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Tax Class",
+            "date": "2026/27",
+            "status": "found",
+            "detail": "4",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Tax Class: 4",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Building Class",
+            "date": "2026/27",
+            "status": "found",
+            "detail": "05 - OFFICE WITH OTHER COMMERCIAL,LT 7 STORIE",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Building Class: 05 - OFFICE WITH OTHER COMMERCIAL,LT 7 STORIE",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Tax Year",
+            "date": null,
+            "status": "found",
+            "detail": "2026/27",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "2026/27",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Market Value",
+            "date": "2026/27",
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Assessed Value",
+            "date": "2026/27",
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Exemptions",
+            "date": "2026/27",
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "",
+            "verified": "no"
+          }
+        ],
+        "reason": null,
+        "summary": "Found property 30-30 Thomson Avenue, Queens, NY 11101 (Block 277, Lot 1, BBL 4002770001, BIN 4003533) on the NYC Department of Finance property records page. Only data displayed on the first property details page was extracted as required."
       }
     },
     {
@@ -407,13 +518,54 @@
       "official_source": "FEMA National Flood Hazard Layer",
       "result": {
         "key": "flood",
-        "status": "unavailable",
-        "reason": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-        "summary": null,
-        "sourceUrl": "",
-        "records": [],
-        "retrievedAt": "2026-11-17T08:39:43.413Z",
-        "runId": null
+        "sourceUrl": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+        "retrievedAt": "2026-11-17T09:00:58.073Z",
+        "runId": "88edac4c-5737-416f-8677-a5ab1df4b352",
+        "status": "found",
+        "records": [
+          {
+            "id": null,
+            "title": "FLD_ZONE",
+            "date": null,
+            "status": null,
+            "detail": "X",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "FLD_ZONE: X",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "ZONE_SUBTY",
+            "date": null,
+            "status": null,
+            "detail": "AREA OF MINIMAL FLOOD HAZARD",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "ZONE_SUBTY: AREA OF MINIMAL FLOOD HAZARD",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "SFHA_TF",
+            "date": null,
+            "status": null,
+            "detail": "F",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "SFHA_TF: F",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "DFIRM_ID",
+            "date": null,
+            "status": null,
+            "detail": "360497",
+            "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
+            "quote": "DFIRM_ID: 360497",
+            "verified": "yes"
+          }
+        ],
+        "reason": null,
+        "summary": "FEMA flood zone query at the property's coordinates (30-30 Thomson Avenue, Queens, NY 11101 — BBL 4002770001, BIN 4003533) returned one feature with flood zone data. The property is in Zone X (area of minimal flood hazard), outside the Special Flood Hazard Area (SFHA_TF = F). STATIC_BFE is -9999.0 (no base flood elevation provided for this zone)."
       }
     },
     {
@@ -422,13 +574,24 @@
       "official_source": "NYC Dept. of Education",
       "result": {
         "key": "schools",
-        "status": "unavailable",
-        "reason": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-        "summary": null,
-        "sourceUrl": "",
-        "records": [],
-        "retrievedAt": "2026-11-17T08:39:45.123Z",
-        "runId": null
+        "sourceUrl": "https://schoolsearch.schools.nyc/",
+        "retrievedAt": "2026-11-17T08:58:46.222Z",
+        "runId": "5b18a30b-9a40-4880-9c90-0c53e710fdb9",
+        "status": "found",
+        "records": [
+          {
+            "id": "Q199",
+            "title": "P.S. 199 Maurice A. Fitzgerald",
+            "date": null,
+            "status": "found",
+            "detail": "Elementary School | Grades: PK, K, 01-05, SE | District 24 | Address: 39-20 48 Avenue, Queens, 11104",
+            "url": "https://www.schools.nyc.gov/schools/Q199",
+            "quote": "Grades: PK,0K,01,02,03,04,05,SE | District: 24 | Address: 39-20 48 Avenue, Queens, 11104",
+            "verified": "yes"
+          }
+        ],
+        "reason": "The address 30-30 Thomson Avenue, Queens, NY 11101 (BBL 4002770001, BIN 4003533) was found on schools.nyc.gov (as '3030 Thomson Avenue, Queens') and returned 1 zoned school. Data is sourced from the NYC DOE official school zone lookup at https://schoolsearch.schools.nyc/",
+        "summary": "Property 30-30 Thomson Avenue, Queens, NY 11101 (BBL 4002770001, BIN 4003533) has 1 zoned school. Only the elementary school level is shown; no middle or high school zoned schools were returned by the site for this address."
       }
     },
     {
@@ -437,13 +600,74 @@
       "official_source": "NYC.gov, NY State, FEMA (TinyFish Search + Fetch)",
       "result": {
         "key": "notices",
-        "status": "unavailable",
-        "reason": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-        "summary": null,
-        "sourceUrl": "",
-        "records": [],
-        "retrievedAt": "2026-11-17T08:39:45.585Z",
-        "runId": null
+        "retrievedAt": "2026-11-17T08:57:36.204Z",
+        "runId": null,
+        "sourceUrl": "https://www.nyc.gov/",
+        "status": "found",
+        "reason": null,
+        "summary": "Found by TinyFish Search on official domains, then re-read live by TinyFish Fetch: a page is listed only if its text contains \"30-30 THOMSON AVENUE\" (or a spelled variant). 0 other search hits dropped because the page text does not contain the address. A mention is not always about this property (it can be a tenant's or company's address), so read each quote.",
+        "records": [
+          {
+            "id": null,
+            "title": "Contact Us - Department of Design and Construction",
+            "date": null,
+            "status": "www.nyc.gov",
+            "detail": "# Contact DDC Department of Design and Construction 30-30 Thomson Avenue Long Island City, NY 11101 718-391-1000 If you have a concern, question, or com",
+            "url": "https://www.nyc.gov/site/ddc/about/contact-ddc.page",
+            "quote": "# Contact DDC Department of Design and Construction 30-30 Thomson Avenue Long Island City, NY 11101 718-391-1000 If you have a concern, question, or com",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "Department of Design and Construction - News",
+            "date": "2016-07-15",
+            "status": "nyc.gov",
+            "detail": "e will be from 9:00 AM to noon at the DDC’s headquarters at 30-30 Thomson Avenue (entrance on 30th Place) in Long Island City, Queens. Over 420 representatives",
+            "url": "https://nyc.gov/site/ddc/about/press-releases/2016/pr-071516-consultants-open-house.page",
+            "quote": "e will be from 9:00 AM to noon at the DDC’s headquarters at 30-30 Thomson Avenue (entrance on 30th Place) in Long Island City, Queens. Over 420 representatives",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "Department of Design and Construction",
+            "date": null,
+            "status": "nyc.gov",
+            "detail": "30-30 Thomson Avenue Long Island City, NY 11101 View map DDC is accessible from all parts of New Yor",
+            "url": "https://nyc.gov/site/ddc/about/directions.page",
+            "quote": "30-30 Thomson Avenue Long Island City, NY 11101 View map DDC is accessible from all parts of New Yor",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "SCA HOMEPAGE",
+            "date": null,
+            "status": "www.nyc.gov",
+            "detail": "| | | --- | | | | | | --- | | IDCNY Center 1, 30-30 Thomson Avenue, Long Island City, NY 11101-3045, Phone: (718) 472-8000 | --- > | | > | --- | >",
+            "url": "https://www.nyc.gov/html/sca/home.html",
+            "quote": "| | | --- | | | | | | --- | | IDCNY Center 1, 30-30 Thomson Avenue, Long Island City, NY 11101-3045, Phone: (718) 472-8000 | --- > | | > | --- | >",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "DDC Hosts 3rd Annual Contractors Open House",
+            "date": "Feb 2, 201",
+            "status": "www.nyc.gov",
+            "detail": "he Open House was at DDC’s Long Island City headquarters at 30-30 Thomson Avenue in Queens. The DDC’s open house events are designed to help contractors better",
+            "url": "https://www.nyc.gov/site/ddc/about/press-releases/2017/pr-020217-third-contractors-open-house.page",
+            "quote": "he Open House was at DDC’s Long Island City headquarters at 30-30 Thomson Avenue in Queens. The DDC’s open house events are designed to help contractors better",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "Resident Engineer",
+            "date": null,
+            "status": "cityjobs.nyc.gov",
+            "detail": "has now expired. Hours: Full-Time – 35 Hours Work Location: 30-30 Thomson Avenue, NY, 11101 – (While this position is based in the main building, it is a field",
+            "url": "https://cityjobs.nyc.gov/job/resident-engineer-in-queens-jid-43690",
+            "quote": "has now expired. Hours: Full-Time – 35 Hours Work Location: 30-30 Thomson Avenue, NY, 11101 – (While this position is based in the main building, it is a field",
+            "verified": "yes"
+          }
+        ]
       }
     }
   ]

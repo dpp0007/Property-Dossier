@@ -1,10 +1,10 @@
 # Property Dossier: 30-30 Thomson Avenue, Queens, NY 11101
 
-BBL 4002770001 · BIN 4003533 · generated 17/11/2026, 2:09:45 pm
-Coverage: 3 sources with records, 1 confirmed none on file, 4 gaps (not retrieved).
+BBL 4002770001 · BIN 4003533 · generated 17/11/2026, 2:31:03 pm
+Coverage: 7 sources with records, 1 confirmed none on file, 0 gaps (not retrieved).
 
 ## Building permits & job filings
-Source: [NYC Dept. of Buildings (BISweb)](https://data.cityofnewyork.us/d/ic3t-wcy2)
+Source: [NYC Open Data, DOB datasets (FALLBACK: BISweb could not be read)](https://data.cityofnewyork.us/d/ic3t-wcy2)
 > TinyFish Agent could not read BISweb (The NYC BIS website (a810-bisweb.nyc.gov) returned a persistent Cloudflare 520 error (origin server unreachable) across multiple attempts over an extended perio). FALLBACK: read live by TinyFish Fetch from NYC Open Data, the city's official DOB data publication. It can lag BISweb. Showing the 10 most recent of 254 filings (legacy BIS and DOB NOW datasets, BIN 4003533). Rows sharing a job number are amendments of one job.
 **Note:** 10 filing rows. Newer filings may exist only in DOB NOW, so this list may be incomplete.
 - **Job filing, type Alteration (DOB NOW)** (#Q01147897-P1 · 01/14/2025 · Approved): Installation of suspended scaffold for facade inspection/repair. [source](https://data.cityofnewyork.us/resource/w9ak-ipjd.json?bin=4003533&$select=job_filing_number%2Cfiling_status%2Cjob_type%2Cfiling_date%2Cjob_description%2Ccurrent_status_date&$order=filing_date%20DESC&$limit=10) _✓ re-verified_
@@ -19,7 +19,7 @@ Source: [NYC Dept. of Buildings (BISweb)](https://data.cityofnewyork.us/d/ic3t-w
 - **Job filing, type No Work (DOB NOW)** (#Q00972837-I1 · 12/07/2023 · TA Certificate of Operation Issued): A/E Holiday Luncheon [source](https://data.cityofnewyork.us/resource/w9ak-ipjd.json?bin=4003533&$select=job_filing_number%2Cfiling_status%2Cjob_type%2Cfiling_date%2Cjob_description%2Ccurrent_status_date&$order=filing_date%20DESC&$limit=10) _✓ re-verified_
 
 ## OATH/ECB violations (DOB)
-Source: [NYC Dept. of Buildings (BISweb)](https://data.cityofnewyork.us/d/6bgk-3dad)
+Source: [NYC Open Data, DOB datasets (FALLBACK: BISweb could not be read)](https://data.cityofnewyork.us/d/6bgk-3dad)
 > TinyFish Agent could not read BISweb (The NYC BIS website (a810-bisweb.nyc.gov) is currently down and returning a Cloudflare 520 error ('Web server is returning an unknown error'). I attempted to ac). FALLBACK: read live by TinyFish Fetch from NYC Open Data, the city's official DOB data publication. It can lag BISweb. OATH/ECB only: 50 violations on file for BIN 4003533, 1 with status ACTIVE. Showing the 10 most recent.
 - **CLASS - 2 · Construction** (#39175410K · 01/30/2026 · ACTIVE): FAILURE TO MAINTAIN, NOTED AT TIME OF INSPECTION OBSERVED A SECTION OF THE DOME IN THE ATRIUM HAS DISLODGED AND FELL., REPAIR AND/OR REPLACE · penalty $1250 · balance due $0 · respondent CELTIC HOLDINGS [source](https://data.cityofnewyork.us/resource/6bgk-3dad.json?bin=4003533&$select=ecb_violation_number%2Cissue_date%2Cseverity%2Cviolation_type%2Cecb_violation_status%2Crespondent_name%2Cviolation_description%2Cpenality_imposed%2Cbalance_due&$order=issue_date%20DESC&$limit=10) _✓ re-verified_
 - **CLASS - 1 · Construction** (#37029881Z · 10/01/2024 · RESOLVE): FAILURE TO SUBMIT THE REQUIRED PARKING STRUCTURE INITIAL OBSERVATION REPORT FOR AN EXISTING PARKING STRUCTURE DOCUMENTING THE CONDITIONS OF PSID#Q0000612 BY THE AUGUST 1, 2024 DEADLINE. TO DATE, THE DEPARTMENT · penalty $0 · balance due $0 · respondent CELTIC  [source](https://data.cityofnewyork.us/resource/6bgk-3dad.json?bin=4003533&$select=ecb_violation_number%2Cissue_date%2Cseverity%2Cviolation_type%2Cecb_violation_status%2Crespondent_name%2Cviolation_description%2Cpenality_imposed%2Cbalance_due&$order=issue_date%20DESC&$limit=10) _✓ re-verified_
@@ -52,17 +52,39 @@ Source: [NYC Dept. of City Planning (ZoLa)](https://zola.planning.nyc.gov/l/lot/
 - **Building Class** (Building Class: Office Buildings - Office with Comm – 1 to 6 Stories (O5) · Building Class): Office Buildings - Office with Comm – 1 to 6 Stories (O5) [source](https://zola.planning.nyc.gov/l/lot/4/277/1) _agent-read only_
 
 ## Property tax & assessment
-Source: [NYC Dept. of Finance]()
-**GAP, not retrieved:** Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+Source: [NYC Dept. of Finance](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1)
+> Found property 30-30 Thomson Avenue, Queens, NY 11101 (Block 277, Lot 1, BBL 4002770001, BIN 4003533) on the NYC Department of Finance property records page. Only data displayed on the first property details page was extracted as required.
+- **Property Address** (found): 30 -30 THOMSON AVENUE, 11101 [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
+- **Borough** (found): QUEENS [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
+- **Block** (found): 277 [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
+- **Lot** (found): 1 [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
+- **Property Owner(s)** (found): CELTIC 30-30 HOLDINGS LLC [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
+- **Tax Class** (2026/27 · found): 4 [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
+- **Building Class** (2026/27 · found): 05 - OFFICE WITH OTHER COMMERCIAL,LT 7 STORIE [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
+- **Tax Year** (found): 2026/27 [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
+- **Market Value** (2026/27 · found) [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
+- **Assessed Value** (2026/27 · found) [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
+- **Exemptions** (2026/27 · found) [source](https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1) _⚠ not re-confirmed_
 
 ## FEMA flood zone
-Source: [FEMA National Flood Hazard Layer]()
-**GAP, not retrieved:** Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+Source: [FEMA National Flood Hazard Layer](https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json)
+> FEMA flood zone query at the property's coordinates (30-30 Thomson Avenue, Queens, NY 11101 — BBL 4002770001, BIN 4003533) returned one feature with flood zone data. The property is in Zone X (area of minimal flood hazard), outside the Special Flood Hazard Area (SFHA_TF = F). STATIC_BFE is -9999.0 (no base flood elevation provided for this zone).
+- **FLD_ZONE**: X [source](https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json) _✓ re-verified_
+- **ZONE_SUBTY**: AREA OF MINIMAL FLOOD HAZARD [source](https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json) _✓ re-verified_
+- **SFHA_TF**: F [source](https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json) _✓ re-verified_
+- **DFIRM_ID**: 360497 [source](https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.93608,40.744072&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json) _✓ re-verified_
 
 ## Zoned schools
-Source: [NYC Dept. of Education]()
-**GAP, not retrieved:** Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+Source: [NYC Dept. of Education](https://schoolsearch.schools.nyc/)
+> Property 30-30 Thomson Avenue, Queens, NY 11101 (BBL 4002770001, BIN 4003533) has 1 zoned school. Only the elementary school level is shown; no middle or high school zoned schools were returned by the site for this address.
+- **P.S. 199 Maurice A. Fitzgerald** (#Q199 · found): Elementary School | Grades: PK, K, 01-05, SE | District 24 | Address: 39-20 48 Avenue, Queens, 11104 [source](https://www.schools.nyc.gov/schools/Q199) _✓ re-verified_
 
 ## Public records mentioning this address
-Source: [NYC.gov, NY State, FEMA (TinyFish Search + Fetch)]()
-**GAP, not retrieved:** Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+Source: [NYC.gov, NY State, FEMA (TinyFish Search + Fetch)](https://www.nyc.gov/)
+> Found by TinyFish Search on official domains, then re-read live by TinyFish Fetch: a page is listed only if its text contains "30-30 THOMSON AVENUE" (or a spelled variant). 0 other search hits dropped because the page text does not contain the address. A mention is not always about this property (it can be a tenant's or company's address), so read each quote.
+- **Contact Us - Department of Design and Construction** (www.nyc.gov): # Contact DDC Department of Design and Construction 30-30 Thomson Avenue Long Island City, NY 11101 718-391-1000 If you have a concern, question, or com [source](https://www.nyc.gov/site/ddc/about/contact-ddc.page) _✓ re-verified_
+- **Department of Design and Construction - News** (2016-07-15 · nyc.gov): e will be from 9:00 AM to noon at the DDC’s headquarters at 30-30 Thomson Avenue (entrance on 30th Place) in Long Island City, Queens. Over 420 representatives [source](https://nyc.gov/site/ddc/about/press-releases/2016/pr-071516-consultants-open-house.page) _✓ re-verified_
+- **Department of Design and Construction** (nyc.gov): 30-30 Thomson Avenue Long Island City, NY 11101 View map DDC is accessible from all parts of New Yor [source](https://nyc.gov/site/ddc/about/directions.page) _✓ re-verified_
+- **SCA HOMEPAGE** (www.nyc.gov): | | | --- | | | | | | --- | | IDCNY Center 1, 30-30 Thomson Avenue, Long Island City, NY 11101-3045, Phone: (718) 472-8000 | --- > | | > | --- | > [source](https://www.nyc.gov/html/sca/home.html) _✓ re-verified_
+- **DDC Hosts 3rd Annual Contractors Open House** (Feb 2, 201 · www.nyc.gov): he Open House was at DDC’s Long Island City headquarters at 30-30 Thomson Avenue in Queens. The DDC’s open house events are designed to help contractors better [source](https://www.nyc.gov/site/ddc/about/press-releases/2017/pr-020217-third-contractors-open-house.page) _✓ re-verified_
+- **Resident Engineer** (cityjobs.nyc.gov): has now expired. Hours: Full-Time – 35 Hours Work Location: 30-30 Thomson Avenue, NY, 11101 – (While this position is based in the main building, it is a field [source](https://cityjobs.nyc.gov/job/resident-engineer-in-queens-jid-43690) _✓ re-verified_
