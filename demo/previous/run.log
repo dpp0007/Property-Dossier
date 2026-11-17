@@ -1,0 +1,53 @@
+[17:10:25] geocoded 350 5th Ave, Manhattan -> 350 5 Avenue, Manhattan, NY 10118 1008350041
+[17:10:26] geocoded 1 Metrotech Center, Brooklyn -> 1 Metrotech Center, Brooklyn, NY 11201 3001470004
+[17:10:26] geocoded 30-30 Thomson Ave, Queens -> 30-30 Thomson Avenue, Queens, NY 11101 4002770001
+[17:10:26] start 350 5 Avenue, Manhattan, NY 10118 permits
+[17:10:26] start 350 5 Avenue, Manhattan, NY 10118 dob_violations
+[17:13:15] done  350 5 Avenue, Manhattan, NY 10118 permits found 10 records 169s | Records displayed for BIN 1015862 (338 5 Avenue, Manhattan — the site lists this address for BIN 101
+[17:13:15] start 350 5 Avenue, Manhattan, NY 10118 hpd
+[17:13:47] done  350 5 Avenue, Manhattan, NY 10118 dob_violations found 10 records 201s | Data extracted from page 1 of OATH/ECB violations for BIN 1015862 (350 5 Avenue/338 5 Avenue, Manhat
+[17:13:47] start 350 5 Avenue, Manhattan, NY 10118 zoning
+[17:16:06] done  350 5 Avenue, Manhattan, NY 10118 hpd none_found 0 records 171s | The site confirms that the property (BIN 1015862, Block 835, Lot 41) located at 338 5 Avenue, Manhat
+[17:16:06] start 350 5 Avenue, Manhattan, NY 10118 tax
+[17:18:58] done  350 5 Avenue, Manhattan, NY 10118 zoning found 13 records 311s | Property BBL 1008350041 (338 5 Avenue, Manhattan, Block 835, Lot 41) was found on the ZOLA page. Not
+[17:18:58] start 350 5 Avenue, Manhattan, NY 10118 flood
+[17:19:01] done  350 5 Avenue, Manhattan, NY 10118 tax found 6 records 175s | Found matching property for BBL 1008350041 (Block 835, Lot 41).
+[17:19:01] start 350 5 Avenue, Manhattan, NY 10118 schools
+[17:20:59] done  350 5 Avenue, Manhattan, NY 10118 schools found 2 records 118s | Search returned zoned schools for 350 5 Avenue, Manhattan. Matches the specified BBL 1008350041 and 
+[17:20:59] start 1 Metrotech Center, Brooklyn, NY 11201 permits
+[17:21:02] done  350 5 Avenue, Manhattan, NY 10118 flood found 4 records 124s 
+[17:21:02] start 1 Metrotech Center, Brooklyn, NY 11201 dob_violations
+[17:23:51] done  1 Metrotech Center, Brooklyn, NY 11201 permits found 10 records 172s | Successfully retrieved 10 job filings for BIN 3319418 (1 Metrotech Center, Brooklyn, NY 11201, BBL 3
+[17:23:51] start 1 Metrotech Center, Brooklyn, NY 11201 hpd
+[17:24:57] done  1 Metrotech Center, Brooklyn, NY 11201 dob_violations found 10 records 235s | This is the OATH/ECB violation list for BIN 3319418 (1 Metrotech Center, Brooklyn). The site returne
+[17:24:57] start 1 Metrotech Center, Brooklyn, NY 11201 zoning
+[17:25:33] done  1 Metrotech Center, Brooklyn, NY 11201 hpd none_found 0 records 102s | The site clearly shows there are no open violations for this building. The page displays the message
+[17:25:33] start 1 Metrotech Center, Brooklyn, NY 11201 tax
+[17:27:52] done  1 Metrotech Center, Brooklyn, NY 11201 tax found 11 records 139s | Property 1 Metrotech Center, Brooklyn, NY 11201 (BBL 3001470004, BIN 3319418) was found under addres
+[17:27:52] start 1 Metrotech Center, Brooklyn, NY 11201 flood
+[17:28:23] done  1 Metrotech Center, Brooklyn, NY 11201 zoning found 15 records 206s 
+[17:28:23] start 1 Metrotech Center, Brooklyn, NY 11201 schools
+[17:29:37] done  1 Metrotech Center, Brooklyn, NY 11201 flood found 4 records 105s 
+[17:29:37] start 30-30 Thomson Avenue, Queens, NY 11101 permits
+[17:33:38] done  30-30 Thomson Avenue, Queens, NY 11101 permits found 10 records 241s 
+[17:33:38] start 30-30 Thomson Avenue, Queens, NY 11101 dob_violations
+[17:36:29] done  1 Metrotech Center, Brooklyn, NY 11201 schools unavailable 0 records 486s | Timed out after 480s.
+[17:36:29] start 30-30 Thomson Avenue, Queens, NY 11101 hpd
+[17:36:36] done  30-30 Thomson Avenue, Queens, NY 11101 dob_violations found 10 records 178s | Data extracted from the OATH/ECB violation search page for property at 30-28 THOMSON AVENUE, QUEENS 
+[17:36:36] start 30-30 Thomson Avenue, Queens, NY 11101 zoning
+[17:37:40] done  30-30 Thomson Avenue, Queens, NY 11101 hpd none_found 0 records 71s | The site explicitly states: 'There are no open violations for this building. Closed violations can b
+[17:37:40] start 30-30 Thomson Avenue, Queens, NY 11101 tax
+[17:38:30] done  30-30 Thomson Avenue, Queens, NY 11101 zoning found 7 records 114s | All requested fields were found on the ZOLA lot info panel for BBL 4002770001 (30-30 Thomson Avenue,
+[17:38:30] start 30-30 Thomson Avenue, Queens, NY 11101 flood
+[17:40:02] done  30-30 Thomson Avenue, Queens, NY 11101 tax found 7 records 142s 
+[17:40:02] start 30-30 Thomson Avenue, Queens, NY 11101 schools
+[17:40:24] done  30-30 Thomson Avenue, Queens, NY 11101 flood found 4 records 114s 
+[17:42:59] done  30-30 Thomson Avenue, Queens, NY 11101 schools found 3 records 177s | Found zoned schools for 30-30 Thomson Avenue, Queens, NY 11101 (BBL 4002770001, BIN 4003533).
+[17:42:59] ALL DONE
+[17:43:21] geocoded 350 5th Ave, Manhattan -> 350 5 Avenue, Manhattan, NY 10118 1008350041
+[17:43:22] geocoded 1 Metrotech Center, Brooklyn -> 1 Metrotech Center, Brooklyn, NY 11201 3001470004
+[17:43:22] geocoded 30-30 Thomson Ave, Queens -> 30-30 Thomson Avenue, Queens, NY 11101 4002770001
+[17:43:22] queued 1 section run(s)
+[17:43:22] start 1 Metrotech Center, Brooklyn, NY 11201 schools
+[17:49:00] done  1 Metrotech Center, Brooklyn, NY 11201 schools unavailable 0 records 338s | The NYC Schools website (schools.nyc.gov) school zone lookup tool consistently returned 'Address not
+[17:49:00] ALL DONE

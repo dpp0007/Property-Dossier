@@ -1,6 +1,7 @@
 import { SOURCES, SCHEMA, goal, parsePlace } from "@/lib/sources";
 import { agentCancel, agentGet, agentStart, fetchPages } from "@/lib/tinyfish";
 import { fallback } from "@/lib/fallback";
+import { notices } from "@/lib/notices";
 import type { Rec, SectionResult } from "@/lib/types";
 
 export const maxDuration = 300;
@@ -16,6 +17,7 @@ export async function POST(req: Request) {
   const src = SOURCES.find((s) => s.key === body?.key);
   const place = parsePlace(body?.place);
   if (!src || !place) return Response.json({ error: "bad request" }, { status: 400 });
+  if (src.direct) return Response.json({ done: await notices(place) }); // Search + Fetch, no browser run needed
   try {
     return Response.json({ runId: await agentStart(src.start(place), goal(src, place), SCHEMA) });
   } catch (e: any) {

@@ -53,3 +53,18 @@ export const monitors = {
   runNow: (id: string) => call<any>(`${AGENT}/v1/monitors/${encodeURIComponent(id)}/runs`, { method: "POST" }, 120_000),
   remove: (id: string) => call<any>(`${AGENT}/v1/monitors/${encodeURIComponent(id)}`, { method: "DELETE" }),
 };
+
+/** TinyFish Search: finds candidate official pages for an address. Candidates are only leads; Fetch must confirm the address is on the page. */
+export async function searchWeb(query: string, purpose: string, includeDomains: string[]) {
+  const qs = new URLSearchParams({ query, purpose, include_domains: includeDomains.join(","), location: "US", language: "en" });
+  let r: any;
+  for (let attempt = 0; ; attempt++) {
+    try { r = await call<any>(`https://api.search.tinyfish.ai?${qs}`, { method: "GET" }, 30_000); break; }
+    catch (e: any) {
+      // rate limit (30 requests/minute): wait and retry twice before giving up, so a busy moment does not become a gap
+      if (attempt >= 2 || !/\b429\b/.test(String(e.message))) throw e;
+      await new Promise((ok) => setTimeout(ok, 12_000 * (attempt + 1)));
+    }
+  }
+  return (r.results ?? []) as { position: number; site_name: string; title: string; snippet: string; url: string; date?: string | null }[];
+}

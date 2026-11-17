@@ -40,6 +40,7 @@ function glance(key: string, r?: SectionResult): Glance {
   if (r.status === "unavailable") return { value: "Could not be read. Check the official site manually.", tone: "gap" };
   const rec = (re: RegExp) => r.records.find((x) => re.test(x.title))?.detail ?? null;
   const n = r.records.length;
+  if (key === "notices") return r.status === "none_found" ? { value: "No official page containing this address was confirmed (not proof none exist).", tone: "info" } : { value: `${n} official page${n === 1 ? "" : "s"} mention this address. Read each quote: a mention is not always about this property.`, tone: "info" };
   if (key === "hpd") return r.status === "none_found" ? { value: "No housing violations on file.", tone: "ok" } : { value: `${n} housing violations listed. Review them.`, tone: "warn" };
   if (key === "dob_violations") {
     const open = r.summary?.match(/Open[^:]*:\s*(\d+)/i)?.[1], total = r.summary?.match(/Issued[^:]*:\s*(\d+)/i)?.[1];
@@ -114,14 +115,16 @@ export default function Home() {
     const post = (method: string, body: object) => api("/api/section", { method, headers: { "Content-Type": "application/json" }, body: JSON.stringify({ key, place: p, ...body }) });
     let out: SectionResult;
     try {
-      const { runId } = await post("POST", {});
-      for (;;) {
+      const first = await post("POST", {});
+      const runId = first.runId;
+      for (; !first.done; ) {
         await new Promise((r) => setTimeout(r, 5000));
         if (id !== runId_.current) return; // a newer search replaced this one
         const j = await post("PUT", { runId, elapsed: (Date.now() - t0) / 1000 });
         if (!j.pending) { out = j; break; }
         setProg((m) => ({ ...m, [key]: `${j.status === "PENDING" ? "Waiting for a TinyFish browser" : `Step ${j.steps}`}${j.action ? `: ${j.action}` : ""}` }));
       }
+      if (first.done) out = first.done;
     } catch (e: any) {
       out = { key, status: "unavailable", reason: e.message, summary: null, sourceUrl: SOURCES.find((s) => s.key === key)!.home, records: [], retrievedAt: new Date().toISOString(), runId: null };
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T17:49:00.922Z",
+  "generatedAt": "2026-11-17T08:33:02.214Z",
   "disclaimer": "Retrieved live from official sources by TinyFish. Gaps are flagged, never guessed. Verify against the linked source before relying on it.",
   "property": {
     "address": "1 Metrotech Center, Brooklyn, NY 11201",
@@ -16,10 +16,10 @@
     "lat": 40.693227
   },
   "coverage": {
-    "total": 7,
-    "found": 5,
+    "total": 8,
+    "found": 7,
     "none": 1,
-    "gaps": 1,
+    "gaps": 0,
     "pending": 0
   },
   "sections": [
@@ -30,113 +30,113 @@
       "result": {
         "key": "permits",
         "sourceUrl": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-        "retrievedAt": "2026-11-14T17:23:48.009Z",
-        "runId": "55e8c802-1758-4b15-8b9d-a971c2936303",
+        "retrievedAt": "2026-11-17T08:17:45.355Z",
+        "runId": "0d0dcdb8-fb21-4b4b-bf64-45905eed0104",
         "status": "found",
         "records": [
           {
             "id": "300122711",
-            "title": "PA",
+            "title": "PA - POST APPROVAL AMENDMENT",
             "date": "12/08/2025",
             "status": "P APPROVED",
-            "detail": "Applicant: GERNER. Work: POST APPROVAL AMENDMENT FOR 01.",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 | Work on Floor(s): 2",
             "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-            "quote": "Job #300122711, Type: PA, Date: 12/08/2025, Status: P APPROVED, Applicant: GERNER, Description: POST APPROVAL AMENDMENT FOR 01.",
+            "quote": "300122711 PA 12/08/2025 P APPROVED",
             "verified": "yes"
           },
           {
             "id": "321054737",
-            "title": "A2",
+            "title": "A2 - ALTERATION TYPE 2",
             "date": "11/22/2024",
             "status": "P APPROVED",
-            "detail": "Applicant: DIAZ. Work: POST APPROVAL AMENDMENT FOR 01.",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 | Work on Floor(s): CEL",
             "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-            "quote": "Job #321054737, Type: A2, Date: 11/22/2024, Status: P APPROVED, Applicant: DIAZ, Description: POST APPROVAL AMENDMENT FOR 01.",
+            "quote": "321054737 A2 11/22/2024 P APPROVED",
             "verified": "yes"
           },
           {
             "id": "321056370",
-            "title": "A1",
+            "title": "A1 - ALTERATION TYPE 1",
             "date": "09/13/2024",
             "status": "P APPROVED",
-            "detail": "Applicant: MOUDIS. Work: POST APPROVAL AMENDMENT FOR 01.",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 | Work on Floor(s): 005",
             "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-            "quote": "Job #321056370, Type: A1, Date: 09/13/2024, Status: P APPROVED, Applicant: MOUDIS, Description: POST APPROVAL AMENDMENT FOR 01.",
+            "quote": "321056370 A1 09/13/2024 P APPROVED",
             "verified": "yes"
           },
           {
             "id": "321056370",
-            "title": "A1",
+            "title": "A1 - ALTERATION TYPE 1",
             "date": "08/14/2024",
             "status": "P APPROVED",
-            "detail": "Applicant: MOUDIS. Work: POST APPROVAL AMENDMENT FOR 01.",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 | Work on Floor(s): 005",
             "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-            "quote": "Job #321056370, Type: A1, Date: 08/14/2024, Status: P APPROVED, Applicant: MOUDIS, Description: POST APPROVAL AMENDMENT FOR 01.",
+            "quote": "321056370 A1 08/14/2024 P APPROVED",
             "verified": "yes"
           },
           {
             "id": "321054737",
-            "title": "A2",
+            "title": "A2 - ALTERATION TYPE 2",
             "date": "07/22/2024",
             "status": "P APPROVED",
-            "detail": "Applicant: DIAZ. Work: POST APPROVAL AMENDMENT FOR 01.",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 | Work on Floor(s): CEL",
             "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-            "quote": "Job #321054737, Type: A2, Date: 07/22/2024, Status: P APPROVED, Applicant: DIAZ, Description: POST APPROVAL AMENDMENT FOR 01.",
+            "quote": "321054737 A2 07/22/2024 P APPROVED",
             "verified": "yes"
           },
           {
             "id": "321056370",
-            "title": "A1",
+            "title": "A1 - ALTERATION TYPE 1",
             "date": "06/21/2024",
             "status": "P APPROVED",
-            "detail": "Applicant: MOUDIS. Work: POST APPROVAL AMENDMENT FOR 01.",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 | Work on Floor(s): 005",
             "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-            "quote": "Job #321056370, Type: A1, Date: 06/21/2024, Status: P APPROVED, Applicant: MOUDIS, Description: POST APPROVAL AMENDMENT FOR 01.",
+            "quote": "321056370 A1 06/21/2024 P APPROVED",
             "verified": "yes"
           },
           {
             "id": "320915328",
-            "title": "A1",
+            "title": "A1 - ALTERATION TYPE 1",
             "date": "10/28/2022",
             "status": "P APPROVED",
-            "detail": "Applicant: SMITH. Work: POST APPROVAL AMENDMENT FOR 01.",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 | Work on Floor(s): 001,MEZ,003",
             "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-            "quote": "Job #320915328, Type: A1, Date: 10/28/2022, Status: P APPROVED, Applicant: SMITH, Description: POST APPROVAL AMENDMENT FOR 01.",
+            "quote": "320915328 A1 10/28/2022 P APPROVED",
             "verified": "yes"
           },
           {
             "id": "320915328",
-            "title": "A1",
+            "title": "A1 - ALTERATION TYPE 1",
             "date": "05/03/2021",
             "status": "P APPROVED",
-            "detail": "Applicant: SMITH. Work: POST APPROVAL AMENDMENT FOR 01.",
+            "detail": "POST APPROVAL AMENDMENT FOR 01 | Work on Floor(s): 001,MEZ,003",
             "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-            "quote": "Job #320915328, Type: A1, Date: 05/03/2021, Status: P APPROVED, Applicant: SMITH, Description: POST APPROVAL AMENDMENT FOR 01.",
+            "quote": "320915328 A1 05/03/2021 P APPROVED",
             "verified": "yes"
           },
           {
             "id": "340789178",
-            "title": "A2",
+            "title": "A2 - ALTERATION TYPE 2",
             "date": "12/09/2020",
             "status": "R PERMIT-ENTIRE",
-            "detail": "Applicant: BERGER. Work: INTERIOR DEMO AND INSTALLATION OF PARTITIONS ON PARTIAL 10TH FLOOR AS PER.",
+            "detail": "INTERIOR DEMO AND INSTALLATION OF PARTITIONS ON PARTIAL 10TH FLOOR AS PER | Work on Floor(s): 010",
             "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-            "quote": "Job #340789178, Type: A2, Date: 12/09/2020, Status: R PERMIT-ENTIRE, Applicant: BERGER, Description: INTERIOR DEMO AND INSTALLATION OF PARTITIONS ON PARTIAL 10TH FLOOR AS PER.",
+            "quote": "340789178 A2 12/09/2020 R PERMIT-ENTIRE",
             "verified": "yes"
           },
           {
             "id": "321939916",
-            "title": "A2",
+            "title": "A2 - ALTERATION TYPE 2",
             "date": "10/15/2020",
             "status": "P APPROVED",
-            "detail": "Applicant: WILLIAMS. Work: POST APPROVAL AMENDMENT FOR 02.",
+            "detail": "POST APPROVAL AMENDMENT FOR 02 | Work on Floor(s): 003",
             "url": "https://a810-bisweb.nyc.gov/bisweb/JobsQueryByLocationServlet?requestid=1&allbin=3319418",
-            "quote": "Job #321939916, Type: A2, Date: 10/15/2020, Status: P APPROVED, Applicant: WILLIAMS, Description: POST APPROVAL AMENDMENT FOR 02.",
+            "quote": "321939916 A2 10/15/2020 P APPROVED",
             "verified": "yes"
           }
         ],
-        "reason": "Successfully retrieved 10 job filings for BIN 3319418 (1 Metrotech Center, Brooklyn, NY 11201, BBL 3001470004). Source: NYC DOB BIS Job Query by Location page.",
-        "summary": "The site returned 10 historical job filings for the property at 62 MYRTLE AVENUE, BROOKLYN (BIN: 3319418, matching BBL 3001470004). These are DOB BIS records; newer filings may be in DOB NOW."
+        "reason": "Successfully extracted job/permit records for BIN 3319418 (1 Metrotech Center, Brooklyn, NY 11201) from the NYC DOB BIS Job Overview page. This is an official NYC Department of Buildings public records page showing filings submitted through BIS (not DOB NOW). Up to the 10 most recent job filings from the first page of results are listed below.",
+        "summary": "Property: 1 Metrotech Center, Brooklyn, NY 11201 | Borough: Brooklyn | Block: 147 | Lot: 4 | BBL: 3001470004 | BIN: 3319418. Source: NYC DOB BIS Job Overview page for BIN 3319418. All 40 records shown on the first page are returned (top 10 by most recent date). Records include job/permit number, job type (work type), filing date, status, and work description excerpt."
       }
     },
     {
@@ -146,113 +146,113 @@
       "result": {
         "key": "dob_violations",
         "sourceUrl": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-        "retrievedAt": "2026-11-14T17:24:52.616Z",
-        "runId": "d9c97790-00be-437e-8690-e81421a6ea0f",
+        "retrievedAt": "2026-11-17T08:21:04.683Z",
+        "runId": "e2951048-72da-4ce8-94d7-697bdd45da44",
         "status": "found",
         "records": [
           {
             "id": "39127579J",
-            "title": "CLASS - 2 / ZONING",
+            "title": "CLASS - 2 ZONING",
             "date": "10/16/2024",
             "status": "OPEN - NO COMPLIANCE RECORDED",
-            "detail": "FOREST CITY JAY STREET AS, 2B1, $0.00",
+            "detail": "FOREST CITY JAY STREET AS | 2B1 | $0.00",
             "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-            "quote": "39127579J | CLASS - 2 | ZONING | 10/16/2024 | OPEN - NO COMPLIANCE RECORDED | FOREST CITY JAY STREET AS | 2B1 | $0.00",
+            "quote": "39127579J CLASS - 2 ZONING 10/16/2024 OPEN - NO COMPLIANCE RECORDED FOREST CITY JAY STREET AS 2B1 $0.00",
             "verified": "yes"
           },
           {
             "id": "35686703N",
-            "title": "CLASS - 1 / CONSTRUCTION",
+            "title": "CLASS - 1 CONSTRUCTION",
             "date": "10/05/2024",
             "status": "RESOLVED - N/A - DISMISSED",
-            "detail": "FOREST CITY JAY STREET AS, 106, $0.00",
+            "detail": "FOREST CITY JAY STREET AS | 106 | $0.00",
             "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-            "quote": "35686703N | CLASS - 1 | CONSTRUCTION | 10/05/2024 | RESOLVED - N/A - DISMISSED | FOREST CITY JAY STREET AS | 106 | $0.00",
+            "quote": "35686703N CLASS - 1 CONSTRUCTION 10/05/2024 RESOLVED - N/A - DISMISSED FOREST CITY JAY STREET AS 106 $0.00",
             "verified": "yes"
           },
           {
             "id": "35654897Y",
-            "title": "CLASS - 2 / ZONING",
+            "title": "CLASS - 2 ZONING",
             "date": "04/27/2022",
             "status": "OPEN - NO COMPLIANCE RECORDED",
-            "detail": "FOREST CITY JAT STREET AS, 2B1, $0.00",
+            "detail": "FOREST CITY JAT STREET AS | 2B1 | $0.00",
             "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-            "quote": "35654897Y | CLASS - 2 | ZONING | 04/27/2022 | OPEN - NO COMPLIANCE RECORDED | FOREST CITY JAT STREET AS | 2B1 | $0.00",
+            "quote": "35654897Y CLASS - 2 ZONING 04/27/2022 OPEN - NO COMPLIANCE RECORDED FOREST CITY JAT STREET AS 2B1 $0.00",
             "verified": "yes"
           },
           {
             "id": "35308200N",
-            "title": "CLASS - 2 / CONSTRUCTION",
+            "title": "CLASS - 2 CONSTRUCTION",
             "date": "07/17/2018",
             "status": "RESOLVED - CERTIFICATE ACCEPTED",
-            "detail": "FOREST CITY JAY STREET AS, 2G1, $0.00",
+            "detail": "FOREST CITY JAY STREET AS | 2G1 | $0.00",
             "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-            "quote": "35308200N | CLASS - 2 | CONSTRUCTION | 07/17/2018 | RESOLVED - CERTIFICATE ACCEPTED | FOREST CITY JAY STREET AS | 2G1 | $0.00",
+            "quote": "35308200N CLASS - 2 CONSTRUCTION 07/17/2018 RESOLVED - CERTIFICATE ACCEPTED FOREST CITY JAY STREET AS 2G1 $0.00",
             "verified": "yes"
           },
           {
             "id": "35334516Z",
-            "title": "CLASS - 2 / ZONING",
+            "title": "CLASS - 2 ZONING",
             "date": "04/30/2018",
             "status": "RESOLVED - CERTIFICATE ACCEPTED",
-            "detail": "FOREST CITY JAY STREET AS, 2B1, $0.00",
+            "detail": "FOREST CITY JAY STREET AS | 2B1 | $0.00",
             "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-            "quote": "35334516Z | CLASS - 2 | ZONING | 04/30/2018 | RESOLVED - CERTIFICATE ACCEPTED | FOREST CITY JAY STREET AS | 2B1 | $0.00",
+            "quote": "35334516Z CLASS - 2 ZONING 04/30/2018 RESOLVED - CERTIFICATE ACCEPTED FOREST CITY JAY STREET AS 2B1 $0.00",
             "verified": "yes"
           },
           {
             "id": "35307631K",
-            "title": "CLASS - 2 / CONSTRUCTION",
+            "title": "CLASS - 2 CONSTRUCTION",
             "date": "03/20/2018",
             "status": "RESOLVED - N/A - DISMISSED",
-            "detail": "FOREST CITY JAY STREET AS, 2G1, $0.00",
+            "detail": "FOREST CITY JAY STREET AS | 2G1 | $0.00",
             "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-            "quote": "35307631K | CLASS - 2 | CONSTRUCTION | 03/20/2018 | RESOLVED - N/A - DISMISSED | FOREST CITY JAY STREET AS | 2G1 | $0.00",
+            "quote": "35307631K CLASS - 2 CONSTRUCTION 03/20/2018 RESOLVED - N/A - DISMISSED FOREST CITY JAY STREET AS 2G1 $0.00",
             "verified": "yes"
           },
           {
             "id": "35016516P",
-            "title": "CLASS - 2 / CONSTRUCTION",
+            "title": "CLASS - 2 CONSTRUCTION",
             "date": "10/15/2013",
             "status": "RESOLVED - CERTIFICATE ACCEPTED",
-            "detail": "FRANK COONEY EMCOR SERVIC, 207, $0.00",
+            "detail": "FRANK COONEY EMCOR SERVIC | 207 | $0.00",
             "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-            "quote": "35016516P | CLASS - 2 | CONSTRUCTION | 10/15/2013 | RESOLVED - CERTIFICATE ACCEPTED | FRANK COONEY EMCOR SERVIC | 207 | $0.00",
+            "quote": "35016516P CLASS - 2 CONSTRUCTION 10/15/2013 RESOLVED - CERTIFICATE ACCEPTED FRANK COONEY EMCOR SERVIC 207 $0.00",
             "verified": "yes"
           },
           {
             "id": "35016515N",
-            "title": "CLASS - 2 / CONSTRUCTION",
+            "title": "CLASS - 2 CONSTRUCTION",
             "date": "10/15/2013",
             "status": "RESOLVED - CERTIFICATE ACCEPTED",
-            "detail": "FRANK COONEY EMCOR SERVIC, 207, $0.00",
+            "detail": "FRANK COONEY EMCOR SERVIC | 207 | $0.00",
             "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-            "quote": "35016515N | CLASS - 2 | CONSTRUCTION | 10/15/2013 | RESOLVED - CERTIFICATE ACCEPTED | FRANK COONEY EMCOR SERVIC | 207 | $0.00",
+            "quote": "35016515N CLASS - 2 CONSTRUCTION 10/15/2013 RESOLVED - CERTIFICATE ACCEPTED FRANK COONEY EMCOR SERVIC 207 $0.00",
             "verified": "yes"
           },
           {
             "id": "34963849M",
-            "title": "CLASS - 1 / null",
+            "title": "CLASS - 1 N/A",
             "date": "03/06/2012",
             "status": "RESOLVED - CERTIFICATE ACCEPTED",
-            "detail": "FOREST CITY JAY STREET AS, 187, $0.00",
+            "detail": "FOREST CITY JAY STREET AS | 187 | $0.00",
             "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-            "quote": "34963849M | CLASS - 1 | null | 03/06/2012 | RESOLVED - CERTIFICATE ACCEPTED | FOREST CITY JAY STREET AS | 187 | $0.00",
+            "quote": "34963849M CLASS - 1 N/A 03/06/2012 RESOLVED - CERTIFICATE ACCEPTED FOREST CITY JAY STREET AS 187 $0.00",
             "verified": "yes"
           },
           {
             "id": "34940721L",
-            "title": "CLASS - 2 / CONSTRUCTION",
+            "title": "CLASS - 2 CONSTRUCTION",
             "date": "12/23/2011",
             "status": "RESOLVED - CERTIFICATE ACCEPTED",
-            "detail": "TO THE OWNER OF 351 JAY S, 202, $0.00",
+            "detail": "TO THE OWNER OF 351 JAY S | 202 | $0.00",
             "url": "https://a810-bisweb.nyc.gov/bisweb/ECBQueryByLocationServlet?requestid=2&allbin=3319418",
-            "quote": "34940721L | CLASS - 2 | CONSTRUCTION | 12/23/2011 | RESOLVED - CERTIFICATE ACCEPTED | TO THE OWNER OF 351 JAY S | 202 | $0.00",
+            "quote": "34940721L CLASS - 2 CONSTRUCTION 12/23/2011 RESOLVED - CERTIFICATE ACCEPTED TO THE OWNER OF 351 JAY S 202 $0.00",
             "verified": "yes"
           }
         ],
-        "reason": "This is the OATH/ECB violation list for BIN 3319418 (1 Metrotech Center, Brooklyn). The site returned 45 violations across 2 pages. Header totals: Total Violations Issued = 77, Open / Certificate of Correction Required = 2, OATH/ECB Hearings Completed/Defaulted = 77, Pending = 0. This covers OATH/ECB violations only. First 10 rows of page 1 are listed below.",
-        "summary": "Property: 1 Metrotech Center, Brooklyn, NY 11201 (BBL 3001470004, BIN 3319418). Source: NYC BIS OATH/ECB Violation Search by Location. Header Totals — Total Violations Issued: 77, Open (Certificate of Correction Required): 2, Hearings Completed/Defaulted: 77, Pending: 0. This data covers OATH/ECB violations only."
+        "reason": "OATH/ECB violations collected from the NYC BIS website for BIN 3319418. The site covers OATH/ECB violations only. This matches the requested property BBL 3001470004, BIN 3319418.",
+        "summary": "Header Totals:\n- Total Violations Issued: 77\n- Open / Certificate of Correction Required: 2\n- Hearings Completed / Defaulted: 77\n- Pending: 0\n\nThis data covers OATH/ECB violations only."
       }
     },
     {
@@ -262,12 +262,12 @@
       "result": {
         "key": "hpd",
         "sourceUrl": "https://hpdonline.nyc.gov/hpdonline/building/957779/violations",
-        "retrievedAt": "2026-11-14T17:25:33.513Z",
-        "runId": "c32bca0d-3946-4634-92c4-93a98e5ec4eb",
+        "retrievedAt": "2026-11-17T08:25:34.311Z",
+        "runId": "03f8d787-5e61-4ce5-97ad-928b034aeefb",
         "status": "none_found",
         "records": [],
-        "reason": "The site clearly shows there are no open violations for this building. The page displays the message: 'There are no open violations for this building.' Closed violations can be accessed through NYC Open Data or by submitting a Freedom of Information Law request.",
-        "summary": "Property found: 1 Metrotech Center (also listed as 351 Jay Street), Brooklyn, NY 11201. Block: 147, Lot: 4, BIN: 3319418, Building ID: 957779."
+        "reason": "The HPD Online system matched the BIN 3319418 to 351 Jay Street, Brooklyn, 11201 (Block 147, Lot 4 / BBL 147-004). This property has 0 open violations in the HPD system. The site explicitly states: \"There are no open violations for this building.\" For closed violations, the site states: \"Closed violations can be accessed through NYC Open Data or you can submit a Freedom of Information Law request for the information.\" The page source URL is https://hpdonline.nyc.gov/hpdonline/building/957779/violations",
+        "summary": "The property address '1 Metrotech Center, Brooklyn, NY 11201' resolves on HPD Online to BIN 3319418, 351 Jay Street, Brooklyn, 11201 (Block 147, Lot 4 / BBL 147-004). The site shows no open violations for this building. No records found on this page."
       }
     },
     {
@@ -277,163 +277,103 @@
       "result": {
         "key": "zoning",
         "sourceUrl": "https://zola.planning.nyc.gov/l/lot/3/147/4",
-        "retrievedAt": "2026-11-14T17:28:11.878Z",
-        "runId": "cfc5df33-4646-49cc-921e-fe2d6011b9d9",
+        "retrievedAt": "2026-11-17T08:26:12.298Z",
+        "runId": "b65a33a2-6446-446c-838f-08551ee338f1",
         "status": "found",
         "records": [
           {
             "id": null,
-            "title": "Zoning District(s)",
-            "date": "3001470004",
-            "status": "found",
+            "title": "Zoning Districts",
+            "date": null,
+            "status": null,
             "detail": "C6-1A, DB",
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "Zoning Districts: C6-1A, DB",
-            "verified": "unchecked"
-          },
-          {
-            "id": null,
-            "title": "Commercial Overlay",
-            "date": "3001470004",
-            "status": "found",
-            "detail": null,
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "",
+            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4",
+            "quote": "C6-1A, DB",
             "verified": "unchecked"
           },
           {
             "id": null,
             "title": "Special Purpose District",
-            "date": "3001470004",
-            "status": "found",
+            "date": null,
+            "status": null,
             "detail": "DB",
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "Zoning Districts: C6-1A, DB",
-            "verified": "unchecked"
-          },
-          {
-            "id": null,
-            "title": "Limited Height District",
-            "date": "3001470004",
-            "status": "found",
-            "detail": null,
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "",
-            "verified": "unchecked"
-          },
-          {
-            "id": null,
-            "title": "Max FAR (Residential)",
-            "date": "3001470004",
-            "status": "found",
-            "detail": null,
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "",
-            "verified": "unchecked"
-          },
-          {
-            "id": null,
-            "title": "Max FAR (Commercial)",
-            "date": "3001470004",
-            "status": "found",
-            "detail": null,
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "",
-            "verified": "unchecked"
-          },
-          {
-            "id": null,
-            "title": "Max FAR (Facility)",
-            "date": "3001470004",
-            "status": "found",
-            "detail": null,
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "",
+            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4",
+            "quote": "DB",
             "verified": "unchecked"
           },
           {
             "id": null,
             "title": "Lot Area",
-            "date": "3001470004",
-            "status": "found",
+            "date": null,
+            "status": null,
             "detail": "69,875 sq ft",
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "Lot Area: 69,875 sq ft",
+            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4",
+            "quote": "69,875 sq ft",
             "verified": "unchecked"
           },
           {
             "id": null,
-            "title": "Building Area (Gross Floor Area)",
-            "date": "3001470004",
-            "status": "found",
+            "title": "Gross Floor Area",
+            "date": null,
+            "status": null,
             "detail": "978,544 sq ft",
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "Gross Floor Area: 978,544 sq ft",
+            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4",
+            "quote": "978,544 sq ft",
             "verified": "unchecked"
           },
           {
             "id": null,
             "title": "Land Use",
-            "date": "3001470004",
-            "status": "found",
+            "date": null,
+            "status": null,
             "detail": "Commercial & Office Buildings",
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "Land Use: Commercial & Office Buildings",
+            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4",
+            "quote": "Commercial & Office Buildings",
             "verified": "unchecked"
           },
           {
             "id": null,
             "title": "Year Built",
-            "date": "3001470004",
-            "status": "found",
+            "date": null,
+            "status": null,
             "detail": "1990",
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "Year Built: 1990",
+            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4",
+            "quote": "1990",
             "verified": "unchecked"
           },
           {
             "id": null,
-            "title": "Number of Floors",
-            "date": "3001470004",
-            "status": "found",
+            "title": "Floors",
+            "date": null,
+            "status": null,
             "detail": "23",
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "Number of Floors: 23",
+            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4",
+            "quote": "23",
             "verified": "unchecked"
           },
           {
             "id": null,
-            "title": "Residential Units",
-            "date": "3001470004",
-            "status": "found",
-            "detail": null,
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "",
+            "title": "Total # of Units",
+            "date": null,
+            "status": null,
+            "detail": "1",
+            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4",
+            "quote": "1",
             "verified": "unchecked"
           },
           {
             "id": null,
             "title": "Owner Type",
-            "date": "3001470004",
-            "status": "found",
+            "date": null,
+            "status": null,
             "detail": "City",
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "Owner Type: City",
-            "verified": "unchecked"
-          },
-          {
-            "id": null,
-            "title": "Landmark/Historic District Status",
-            "date": "3001470004",
-            "status": "found",
-            "detail": null,
-            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4#18.68/40.6932225/-73.9871623",
-            "quote": "",
+            "url": "https://zola.planning.nyc.gov/l/lot/3/147/4",
+            "quote": "City",
             "verified": "unchecked"
           }
         ],
-        "reason": null,
-        "summary": "1 property found matching BBL 3001470004, BIN 3319418. Address shown on the site is 351 Jay Street (nearby the requested 1 Metrotech Center address)."
+        "reason": "The site shows Lot Info Panel for BBL 3001470004 (Block 147, Lot 4). The address displayed is 351 JAY STREET, 11201, which matches the requested BBL 3001470004 (1 Metrotech Center / 351 Jay Street is the same property). Only fields actually displayed on the page are reported; fields not shown (commercial overlay, limited height district, max FAR, landmark/historic district status) are omitted per instructions.",
+        "summary": "Property 1 Metrotech Center (BBL 3001470004) found. Page displays address as 351 JAY STREET, which shares the same BBL/block/lot."
       }
     },
     {
@@ -443,44 +383,24 @@
       "result": {
         "key": "tax",
         "sourceUrl": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
-        "retrievedAt": "2026-11-14T17:27:49.958Z",
-        "runId": "e4530b0c-9223-4ba8-b148-9f3e53d293d2",
+        "retrievedAt": "2026-11-17T08:31:10.318Z",
+        "runId": "b26464d0-e644-4c9e-801c-4d43429bc855",
         "status": "found",
         "records": [
           {
-            "id": null,
-            "title": "Property Owner",
-            "date": null,
-            "status": "found",
-            "detail": "FOREST CITY JAY STREET ASSOCIATES,",
-            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
-            "quote": "Property Owner(s) FOREST CITY JAY STREET ASSOCIATES,",
-            "verified": "no"
-          },
-          {
-            "id": null,
-            "title": "Property Address",
-            "date": null,
-            "status": "found",
-            "detail": "351 JAY STREET, 11201",
-            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
-            "quote": "Property Address 351 JAY STREET, 11201",
-            "verified": "no"
-          },
-          {
-            "id": null,
+            "id": "1",
             "title": "Borough",
-            "date": null,
+            "date": "2026/27",
             "status": "found",
             "detail": "BROOKLYN",
             "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
-            "quote": "Borough: BROOKLYN",
+            "quote": "BROOKLYN",
             "verified": "no"
           },
           {
-            "id": null,
+            "id": "2",
             "title": "Block",
-            "date": null,
+            "date": "2026/27",
             "status": "found",
             "detail": "147",
             "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
@@ -488,9 +408,9 @@
             "verified": "no"
           },
           {
-            "id": null,
+            "id": "3",
             "title": "Lot",
-            "date": null,
+            "date": "2026/27",
             "status": "found",
             "detail": "4",
             "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
@@ -498,68 +418,108 @@
             "verified": "no"
           },
           {
-            "id": null,
+            "id": "4",
+            "title": "Property Address",
+            "date": "2026/27",
+            "status": "found",
+            "detail": "351 JAY STREET, 11201",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "351 JAY STREET, 11201",
+            "verified": "no"
+          },
+          {
+            "id": "5",
+            "title": "Property Owner(s)",
+            "date": "2026/27",
+            "status": "found",
+            "detail": "FOREST CITY JAY STREET ASSOCIATES,",
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "FOREST CITY JAY STREET ASSOCIATES,",
+            "verified": "no"
+          },
+          {
+            "id": "6",
             "title": "Tax Class",
-            "date": null,
+            "date": "2026/27",
             "status": "found",
             "detail": "4",
             "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
-            "quote": "Tax Class 4",
+            "quote": "Tax Class: 4",
             "verified": "no"
           },
           {
-            "id": null,
+            "id": "7",
             "title": "Building Class",
-            "date": null,
+            "date": "2026/27",
             "status": "found",
             "detail": "O4 - OFFICE W OR W/O OTHER COMMERCIAL, GE 20",
             "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
-            "quote": "Building Class 04 - OFFICE W OR W/O OTHER COMMERCIAL, GE 20",
+            "quote": "Building Class: O4 - OFFICE W OR W/O OTHER COMMERCIAL, GE 20",
             "verified": "no"
           },
           {
-            "id": null,
+            "id": "8",
             "title": "Tax Year",
             "date": "2026/27",
             "status": "found",
             "detail": "2026/27",
             "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
-            "quote": "Tax Year 2026/27",
+            "quote": "Tax Year: 2026/27",
             "verified": "no"
           },
           {
-            "id": null,
+            "id": "9",
             "title": "Market Value",
             "date": "2026/27",
-            "status": null,
+            "status": "found",
             "detail": null,
             "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
-            "quote": "Market value not shown on this page.",
+            "quote": "Not shown on this page",
             "verified": "no"
           },
           {
-            "id": null,
-            "title": "Assessed Value",
+            "id": "10",
+            "title": "Assessed Value - Land",
             "date": "2026/27",
-            "status": null,
+            "status": "found",
             "detail": null,
             "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
-            "quote": "Assessed value not shown on this page.",
+            "quote": "Not shown on this page",
             "verified": "no"
           },
           {
-            "id": null,
+            "id": "11",
+            "title": "Assessed Value - Improvements",
+            "date": "2026/27",
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Not shown on this page",
+            "verified": "no"
+          },
+          {
+            "id": "12",
+            "title": "Assessed Value - Total",
+            "date": "2026/27",
+            "status": "found",
+            "detail": null,
+            "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
+            "quote": "Not shown on this page",
+            "verified": "no"
+          },
+          {
+            "id": "13",
             "title": "Exemptions",
             "date": "2026/27",
-            "status": null,
+            "status": "found",
             "detail": null,
             "url": "https://a836-pts-access.nyc.gov/CARE/Datalets/Datalet.aspx?sIndex=0&idx=1",
-            "quote": "Exemptions not shown on this page.",
+            "quote": "Not shown on this page",
             "verified": "no"
           }
         ],
-        "reason": "Property 1 Metrotech Center, Brooklyn, NY 11201 (BBL 3001470004, BIN 3319418) was found under address 351 JAY STREET (1 Metrotech Center's mailing address), Block 147, Lot 4 in Brooklyn. Matching confirmed by BBL.",
-        "summary": "Property located at 351 JAY STREET (1 Metrotech Center), Brooklyn NY 11201, Block 147, Lot 4. Tax Class 4. Market value, assessed value, and exemptions are NOT displayed on the main Property Info/Profile page; the site separates those into linked tabs (Market Values & Assessments, Benefits, etc.) which were not opened per task instructions."
+        "reason": "Property found: 351 JAY STREET, 11201 (Borough: BROOKLYN, Block: 147, Lot: 4). This matches the requested BBL 3001470004 and BIN 3319418 (1 Metrotech Center). Data extracted from the first Property Info page only.",
+        "summary": "Property details from the first results/property details page:"
       }
     },
     {
@@ -569,15 +529,15 @@
       "result": {
         "key": "flood",
         "sourceUrl": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.98672,40.693227&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
-        "retrievedAt": "2026-11-14T17:29:34.092Z",
-        "runId": "7da06314-dacc-42ac-a1d7-8dfb8564e69e",
+        "retrievedAt": "2026-11-17T08:28:14.807Z",
+        "runId": "62cf71e3-a086-44d2-8ca0-b031b7939e25",
         "status": "found",
         "records": [
           {
             "id": null,
-            "title": "FLD_ZONE",
-            "date": "360497_2184",
-            "status": "found",
+            "title": "FLD_ZONE (Flood Zone)",
+            "date": null,
+            "status": null,
             "detail": "X",
             "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.98672,40.693227&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
             "quote": "FLD_ZONE: X",
@@ -585,9 +545,9 @@
           },
           {
             "id": null,
-            "title": "ZONE_SUBTY",
+            "title": "ZONE_SUBTY (Zone Subtype)",
             "date": null,
-            "status": "found",
+            "status": null,
             "detail": "AREA OF MINIMAL FLOOD HAZARD",
             "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.98672,40.693227&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
             "quote": "ZONE_SUBTY: AREA OF MINIMAL FLOOD HAZARD",
@@ -595,19 +555,19 @@
           },
           {
             "id": null,
-            "title": "SFHA_TF",
-            "date": "F",
-            "status": "found",
+            "title": "SFHA_TF (Inside Special Flood Hazard Area)",
+            "date": null,
+            "status": null,
             "detail": "F",
             "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.98672,40.693227&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
-            "quote": "SFHA_TF: F (outside Special Flood Hazard Area)",
-            "verified": "no"
+            "quote": "SFHA_TF: F",
+            "verified": "yes"
           },
           {
             "id": null,
-            "title": "DFIRM_ID",
-            "date": "360497_2184",
-            "status": "found",
+            "title": "DFIRM_ID (FIRM Database ID)",
+            "date": null,
+            "status": null,
             "detail": "360497",
             "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-73.98672,40.693227&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,SFHA_TF,STATIC_BFE,DFIRM_ID,FLD_AR_ID&returnGeometry=false&f=json",
             "quote": "DFIRM_ID: 360497",
@@ -615,7 +575,7 @@
           }
         ],
         "reason": null,
-        "summary": "FEMA has one flood zone record for 1 Metrotech Center, Brooklyn, NY 11201 (BBL 3001470004, BIN 3319418). The property is in Zone X (area of minimal flood hazard), outside the Special Flood Hazard Area. STATIC_BFE is -9999.0 (not applicable, ignored)."
+        "summary": "One feature was found at the queried coordinates for 1 Metrotech Center, Brooklyn, NY (BBL 3001470004, BIN 3319418). The property is in Zone X (minimal flood hazard), outside the Special Flood Hazard Area."
       }
     },
     {
@@ -625,12 +585,89 @@
       "result": {
         "key": "schools",
         "sourceUrl": "https://schoolsearch.schools.nyc/",
-        "retrievedAt": "2026-11-14T17:48:59.303Z",
-        "runId": "f0ab2ee4-a1f8-4dde-85bd-a1cd17f51d31",
-        "status": "unavailable",
-        "records": [],
-        "reason": "The NYC Schools website (schools.nyc.gov) school zone lookup tool consistently returned 'Address not found' errors for the address 1 Metrotech Center, Brooklyn, NY 11201 (BBL 3001470004, BIN 3319418). Multiple address formats were attempted including: '1 Metrotech Center, Brooklyn, NY 11201', '1 METROTECH CENTER', '1 Metrotech Ctr', '1 Metrotech Center Brooklyn', '1 MetroTech Center', '11201' (ZIP code only), '2 MetroTech Center', 'MetroTech', and '300 Adams St, Brooklyn, NY 11201'. The NYC DOE 'Find a School' tool requires a valid residential street address to identify zoned schools. The tool does not support search by BBL (Block/Lot), BIN, or parcel number. The address '1 Metrotech Center' is a commercial/office complex (part of the MetroTech campus in Downtown Brooklyn) and may not be included in the school district zoning database, or the format recognized by the NYC DOE address lookup system differs from standard formats. No zoned school records could be retrieved.",
-        "summary": "Site does not recognize '1 Metrotech Center' as a valid address for school zone lookup. The address is likely a commercial building not in the residential address database."
+        "retrievedAt": "2026-11-17T08:32:45.214Z",
+        "runId": "42e10f57-01d4-48cf-ad6f-e8d40554249e",
+        "status": "found",
+        "records": [
+          {
+            "id": "K287",
+            "title": "P.S. 287 Bailey K. Ashford",
+            "date": "District 13",
+            "status": null,
+            "detail": "Grades: PK,0K,01,02,03,04,05,SE",
+            "url": "https://www.schools.nyc.gov/schools/K287",
+            "quote": "50 NAVY STREET Brooklyn, 11201 718-834-4745 District 13",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "No zoned middle school",
+            "date": "District 13",
+            "status": null,
+            "detail": "Citywide",
+            "url": "https://schoolsearch.schools.nyc/",
+            "quote": "Zoned to District 13. No zoned school. Contact 718-935-2009 for more information.",
+            "verified": "no"
+          },
+          {
+            "id": null,
+            "title": "Citywide High School Choice",
+            "date": "Citywide",
+            "status": null,
+            "detail": "Citywide High School Choice",
+            "url": "https://schoolsearch.schools.nyc/",
+            "quote": "Citywide High School Choice",
+            "verified": "no"
+          }
+        ],
+        "reason": "Found 1 zoned elementary school. Middle schools are zoned to District 13 with no specific zoned school (contact 718-935-2009). High school is Citywide High School Choice. Address matched: 1 Metro Tech Center, Brooklyn (BBL/BIN as requested).",
+        "summary": "Zoned schools found for 1 Metro Tech Center, Brooklyn NY 11201 (BBL 3001470004, BIN 3319418)"
+      }
+    },
+    {
+      "key": "notices",
+      "title": "Public records mentioning this address",
+      "official_source": "NYC.gov, NY State, FEMA (TinyFish Search + Fetch)",
+      "result": {
+        "key": "notices",
+        "retrievedAt": "2026-11-17T08:31:19.463Z",
+        "runId": null,
+        "sourceUrl": "https://www.nyc.gov/",
+        "status": "found",
+        "reason": null,
+        "summary": "Found by TinyFish Search on official domains, then re-read live by TinyFish Fetch: a page is listed only if its text contains \"1 METROTECH CENTER\" (or a spelled variant). 2 other search hits dropped because the page text does not contain the address, 3 could not be re-read. A mention is not always about this property (it can be a tenant's or company's address), so read each quote.",
+        "records": [
+          {
+            "id": null,
+            "title": "documents.dps.ny.gov/public/Common/ViewDoc.aspx",
+            "date": "2024-07-05",
+            "status": "documents.dps.ny.gov",
+            "detail": "AEC Energy, LLC 1 Metrotech Center North, 3rd Floor, Brooklyn, NY 11201 T: 347-799-1685 Ops@aecenergymgmt.com July",
+            "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B90EA8390-0000-C812-9933-6E89842786F1%7D",
+            "quote": "AEC Energy, LLC 1 Metrotech Center North, 3rd Floor, Brooklyn, NY 11201 T: 347-799-1685 Ops@aecenergymgmt.com July",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "Company Details",
+            "date": null,
+            "status": "myportal.dfs.ny.gov",
+            "detail": "| FId: | 133571448 | | Affirmative Direct Insurance Company 1 Metrotech Center Suite 1803 Brooklyn, NY 11201 | | | | | | | --- | --- | | Company Name History:",
+            "url": "https://myportal.dfs.ny.gov/companydirectory/svas_det.jsp?search_type=CPAT_NUM&search_value=1060",
+            "quote": "| FId: | 133571448 | | Affirmative Direct Insurance Company 1 Metrotech Center Suite 1803 Brooklyn, NY 11201 | | | | | | | --- | --- | | Company Name History:",
+            "verified": "yes"
+          },
+          {
+            "id": null,
+            "title": "Commission on Ethics and Lobbying in Government Lobbying Search",
+            "date": null,
+            "status": "reports.ethics.ny.gov",
+            "detail": "0 #### CONTRACTUAL CLIENT **PACIFIC PARK DEVELOPMENT, LLC** 1 METROTECH CENTER, 18TH FLOOR BROOKLYN, NY 11201 p.718-701-6040 #### BENEFICIAL CLIENTS **PACIFIC",
+            "url": "https://reports.ethics.ny.gov/publicquery/ViewFiling/BIMO/NDA5NzM10",
+            "quote": "0 #### CONTRACTUAL CLIENT **PACIFIC PARK DEVELOPMENT, LLC** 1 METROTECH CENTER, 18TH FLOOR BROOKLYN, NY 11201 p.718-701-6040 #### BENEFICIAL CLIENTS **PACIFIC",
+            "verified": "yes"
+          }
+        ]
       }
     }
   ]

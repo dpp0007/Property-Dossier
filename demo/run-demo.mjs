@@ -15,6 +15,7 @@ const SECTIONS = [
   ["tax", "Property tax & assessment", "NYC Dept. of Finance"],
   ["flood", "FEMA flood zone", "FEMA National Flood Hazard Layer"],
   ["schools", "Zoned schools", "NYC Dept. of Education"],
+  ["notices", "Public records mentioning this address", "NYC.gov, NY State, FEMA (TinyFish Search + Fetch)"],
 ];
 
 const call = async (m, p, b) => (await fetch(BASE + p, { method: m, headers: { "content-type": "application/json" }, body: b ? JSON.stringify(b) : undefined })).json();
@@ -28,7 +29,7 @@ for (const text of ADDRESSES) {
   const place = places[0];
   // resume: keep sections that already succeeded, re-run only gaps and missing ones
   let results = {};
-  try {
+  if (!process.env.FRESH) try {
     const prev = JSON.parse(fs.readFileSync(path.join(OUT, slug(place.address) + ".json"), "utf8"));
     for (const s of prev.sections) if (s.result && s.result.status !== "unavailable") results[s.key] = s.result;
   } catch {}
@@ -62,6 +63,10 @@ function save(run) {
     if (r.status === "unavailable") L.push(`**GAP, not retrieved:** ${r.reason ?? "unknown"}`);
     else if (r.status === "none_found") L.push(`No records on file at the source${r.reason ? ` (${r.reason})` : ""}.`);
     if (r.summary) L.push(`> ${r.summary}`);
+    if (key === "permits" && r.status === "found" && r.records.length) {
+      const jobs = new Set(r.records.map((x) => x.id).filter(Boolean)).size, n = r.records.length;
+      L.push(`**Note:** ${n} filing rows.${jobs && jobs < n ? ` They cover only ${jobs} distinct job number${jobs === 1 ? "" : "s"}: rows with the same number are amendments or status updates of one job, not separate permits.` : ""} Newer filings may exist only in DOB NOW, so this list may be incomplete.`);
+    }
     for (const x of r.records) {
       const meta = [x.id && `#${x.id}`, x.date, x.status].filter(Boolean).join(" · ");
       const chk = x.verified === "yes" ? "✓ re-verified" : x.verified === "no" ? "⚠ not re-confirmed" : "agent-read only";
@@ -74,7 +79,8 @@ function save(run) {
 
 async function section(run, key) {
   const t0 = Date.now();
-  const { runId, error } = await call("POST", "/api/section", { key, place: run.place });
+  const { runId, error, done } = await call("POST", "/api/section", { key, place: run.place });
+  if (done) return done; // Search + Fetch sections answer immediately
   if (!runId) return { key, status: "unavailable", reason: error ?? "start failed", summary: null, sourceUrl: "", records: [], retrievedAt: new Date().toISOString(), runId: null };
   for (;;) {
     await new Promise((r) => setTimeout(r, 5000));

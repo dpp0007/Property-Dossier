@@ -10,6 +10,7 @@ export type Source = {
   home: string; // shown to the user as the official source
   start: (p: Place) => string;
   task: string;
+  direct?: boolean; // answered synchronously by Search + Fetch, no browser agent
 };
 
 const bis = (p: Place) =>
@@ -92,6 +93,17 @@ export const SOURCES: Source[] = [
     home: "https://www.schools.nyc.gov/enrollment/enrollment-help/zoned-schools",
     start: () => "https://www.schools.nyc.gov/",
     task: `Find the school zone lookup (zoned schools for an address). Enter the address and return each zoned school (elementary, middle, high if shown). id = DBN/school code, title = school name, detail = grade levels, district and school address, status = null. If no zoned school is returned say so in reason.`,
+  },
+  {
+    key: "notices",
+    short: "Official documents",
+    what: "Landmark reports, city notices and public documents on official sites whose text contains this exact address.",
+    title: "Public records mentioning this address",
+    org: "NYC.gov, NY State, FEMA (found by TinyFish Search, confirmed by Fetch)",
+    home: "https://www.nyc.gov/",
+    start: () => "https://www.nyc.gov/",
+    task: "",
+    direct: true,
   },
 ];
 
